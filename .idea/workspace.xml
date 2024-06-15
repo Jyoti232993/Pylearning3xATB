@@ -5,34 +5,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="83304dca-33c1-4f3c-bb2d-3bec65755190" name="Changes" comment="Operators and literals">
-      <change afterPath="$PROJECT_DIR$/Copy of all exercises/Ex_07-06-2024/LAB_014.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Copy of all exercises/Ex_07-06-2024/LAB_015.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Copy of all exercises/Ex_07-06-2024/LAB_016.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Copy of all exercises/Ex_07-06-2024/LAB_017.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Copy of all exercises/Ex_07-06-2024/LAB_018.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Copy of all exercises/Ex_07-06-2024/LAB_019.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Copy of all exercises/Ex_07-06-2024/LAB_020.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Copy of all exercises/Ex_07-06-2024/LAB_021.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Copy of all exercises/Ex_07-06-2024/LAB_022.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Copy of all exercises/Ex_07-06-2024/LAB_023.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Copy of all exercises/Ex_07-06-2024/LAB_024.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Copy of all exercises/Ex_07-06-2024/Task 1/Task 1.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Copy of all exercises/Ex_07-06-2024/Task 2/Task 2a.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Copy of all exercises/Ex_07-06-2024/Task 2/Task 2b.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Copy of all exercises/Ex_1-03-06-2024/LAB_001.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Copy of all exercises/Ex_3-05-06-2024/LAB_002.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Copy of all exercises/Ex_3-05-06-2024/LAB_003.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Copy of all exercises/Ex_3-05-06-2024/LAB_004.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Copy of all exercises/Ex_3-05-06-2024/LAB_005.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Copy of all exercises/Ex_3-05-06-2024/LAB_006.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Copy of all exercises/Ex_3-05-06-2024/LAB_007.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Copy of all exercises/Ex_3-05-06-2024/LAB_008.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Copy of all exercises/Ex_3-05-06-2024/LAB_009.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Copy of all exercises/Ex_3-05-06-2024/LAB_010.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Copy of all exercises/Ex_3-05-06-2024/LAB_011.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Copy of all exercises/Ex_3-05-06-2024/LAB_012.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Copy of all exercises/Ex_3-05-06-2024/LAB_013.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Test/TEst.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -99,7 +71,7 @@
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
     &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/Users/jyotiparmar/PycharmProjects/pylearning3xATB/Copy of all exercises&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/jyotiparmar/PycharmProjects/pylearning3xATB&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
@@ -118,6 +90,7 @@
 }</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/Copy of all exercises" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
@@ -364,9 +337,9 @@
     <MESSAGE value="Third lecture - Python variables and data types" />
     <MESSAGE value="Test commit 50" />
     <MESSAGE value="Commit 1 - June 7" />
-    <MESSAGE value="Operators and literals" />
     <MESSAGE value="Commit 2 - June 7" />
-    <option name="LAST_COMMIT_MESSAGE" value="Commit 2 - June 7" />
+    <MESSAGE value="Operators and literals" />
+    <option name="LAST_COMMIT_MESSAGE" value="Operators and literals" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
