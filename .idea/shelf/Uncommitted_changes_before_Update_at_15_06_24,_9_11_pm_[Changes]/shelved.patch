@@ -1,0 +1,1473 @@
+Index: Ex_June/Ex_03-06-2024/LAB_001.py
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/Ex_June/Ex_03-06-2024/LAB_001.py b/Ex_June/Ex_03-06-2024/LAB_001.py
+new file mode 100644
+--- /dev/null	(date 1717428090289)
++++ b/Ex_June/Ex_03-06-2024/LAB_001.py	(date 1717428090289)
+@@ -0,0 +1,3 @@
++# This is a program to print "Hello world"
++
++print("Hello World!!!!")
+\ No newline at end of file
+Index: Ex_June/Ex_05-06-2024/LAB_002.py
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/Ex_June/Ex_05-06-2024/LAB_002.py b/Ex_June/Ex_05-06-2024/LAB_002.py
+new file mode 100644
+--- /dev/null	(date 1717673990513)
++++ b/Ex_June/Ex_05-06-2024/LAB_002.py	(date 1717673990513)
+@@ -0,0 +1,5 @@
++print("Hello World!")
++print(2+2)
++print(2/2)
++print(2*2)
++print(2-2)
+\ No newline at end of file
+Index: Ex_June/Ex_05-06-2024/LAB_003.py
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/Ex_June/Ex_05-06-2024/LAB_003.py b/Ex_June/Ex_05-06-2024/LAB_003.py
+new file mode 100644
+--- /dev/null	(date 1717674436627)
++++ b/Ex_June/Ex_05-06-2024/LAB_003.py	(date 1717674436627)
+@@ -0,0 +1,11 @@
++# print()
++# self - Concept in OOPS which points to itself - ignore.
++# *args - Unlimited number of arguments * - string, int, float, boolean...
++# sep=' ' - How you want to separate the arguments
++# end='\n' - in the end what you want to do
++# file=None - File IO
++
++
++print("Hello", "World", 123, True, 3.14, sep="-")
++print("Hi, My name is Jyoti", "Parmar", sep="-")
++
+Index: Ex_June/Ex_05-06-2024/LAB_004.py
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/Ex_June/Ex_05-06-2024/LAB_004.py b/Ex_June/Ex_05-06-2024/LAB_004.py
+new file mode 100644
+--- /dev/null	(date 1717674607504)
++++ b/Ex_June/Ex_05-06-2024/LAB_004.py	(date 1717674607504)
+@@ -0,0 +1,2 @@
++print("Hi", "Jyoti", "Parmar", sep="-", end="\t \t")
++print("Hi", "Jyoti", "Parmar")
+\ No newline at end of file
+Index: Ex_June/Ex_05-06-2024/LAB_005.py
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/Ex_June/Ex_05-06-2024/LAB_005.py b/Ex_June/Ex_05-06-2024/LAB_005.py
+new file mode 100644
+--- /dev/null	(date 1717674790565)
++++ b/Ex_June/Ex_05-06-2024/LAB_005.py	(date 1717674790565)
+@@ -0,0 +1,5 @@
++# print(sep="-", "Hi", "Jyoti")
++print("I am a good person", end="_")
++print("I am a bad person")
++# Python is case sensitive
++#Print("Hi")
+\ No newline at end of file
+Index: Ex_June/Ex_05-06-2024/LAB_006.py
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/Ex_June/Ex_05-06-2024/LAB_006.py b/Ex_June/Ex_05-06-2024/LAB_006.py
+new file mode 100644
+--- /dev/null	(date 1717674859915)
++++ b/Ex_June/Ex_05-06-2024/LAB_006.py	(date 1717674859915)
+@@ -0,0 +1,7 @@
++# Program to find the max in two numbers
++print(max(10, 23))
++print(max(10, 23, 45))
++print(max(10, 23, 45, -1, -2, 100, 1, 87.34))
++
++# TypeError: '>' not supported between instances of 'str' and 'int'
++#print(max(10, 23, 45, -1, -2, 100, 1, "Pramod"))
+\ No newline at end of file
+Index: Ex_June/Ex_05-06-2024/LAB_007.py
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/Ex_June/Ex_05-06-2024/LAB_007.py b/Ex_June/Ex_05-06-2024/LAB_007.py
+new file mode 100644
+--- /dev/null	(date 1717675313998)
++++ b/Ex_June/Ex_05-06-2024/LAB_007.py	(date 1717675313998)
+@@ -0,0 +1,2 @@
++# IndentationError: unexpected indent
++   print("Hello World")
+\ No newline at end of file
+Index: Ex_June/Ex_05-06-2024/LAB_008.py
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/Ex_June/Ex_05-06-2024/LAB_008.py b/Ex_June/Ex_05-06-2024/LAB_008.py
+new file mode 100644
+--- /dev/null	(date 1717675642111)
++++ b/Ex_June/Ex_05-06-2024/LAB_008.py	(date 1717675642111)
+@@ -0,0 +1,42 @@
++# ✅ Dynamically typed
++# Dynamic Type - Type of Data that Python supports.
++age = 65
++# variableName = variableValue
++# identifier = literal
++
++# Types which are supported in the Python
++
++# Integers - Positive and negative whole numbers.
++# 1, -1,123, 999, 100000, 96543210
++
++# Floating Points Numbers
++# 3.14, 5.3333333 , 18.00, 0.000786  . -0.4, -1.6
++pi = 3.14
++
++# String
++# "pramod", "A", "hello world", "Hi, I am good person, You are a liar", "12345"
++name = "Pramod"
++
++# Boolean
++# True, False
++# true, false ? boolean?
++isMale = True
++
++# How do I check the type of the variable?
++print(type(age))
++print(type(name))
++print(type(isMale))
++print(type(pi))
++
++# Python - Complex NUMBER - i iota -
++complex_number = 2 + 3j
++# Real = 2
++# Imaginary = 3
++print(complex_number.real)
++print(complex_number.imag)
++
++# Complex Data types in Python
++# List
++# Tuple
++# Dictionary
++# Set
+\ No newline at end of file
+Index: Ex_June/Ex_05-06-2024/LAB_009.py
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/Ex_June/Ex_05-06-2024/LAB_009.py b/Ex_June/Ex_05-06-2024/LAB_009.py
+new file mode 100644
+--- /dev/null	(date 1717675778061)
++++ b/Ex_June/Ex_05-06-2024/LAB_009.py	(date 1717675778061)
+@@ -0,0 +1,5 @@
++age =65
++# Dynamically typed
++print(type(age))
++age = "sixty five"
++print(type(age))
+\ No newline at end of file
+Index: Ex_June/Ex_05-06-2024/LAB_010.py
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/Ex_June/Ex_05-06-2024/LAB_010.py b/Ex_June/Ex_05-06-2024/LAB_010.py
+new file mode 100644
+--- /dev/null	(date 1717676467314)
++++ b/Ex_June/Ex_05-06-2024/LAB_010.py	(date 1717676467314)
+@@ -0,0 +1,27 @@
++# variable name should be start grom A-Z, a-z _
++name = "Jyoti"
++print(type(name))
++
++# variable name should not start with number
++# 123 =345 - variable names
++
++# variable name should not be any keyword
++# keyword ? // Reserved word
++# 'False', 'None', 'True', 'and', 'as', 'assert', 'async', 'await', 'break', 'class', 'continue', 'def', 'del', 'elif', 'else', 'except', 'finally', 'for', 'from', 'global', 'if', 'import', 'in', 'is', 'lambda', 'nonlocal', 'not', 'or', 'pass', 'raise', 'return', 'try', 'while', 'with', 'yield' [2]
++# and = 123
++
++# variable name should not be any special character
++# @ = 123
++# $ = 344
++_ = 123
++_name = "Jyoti"
++# $Jyoti = "Jyoti"
++# Jyoti$ = "Hello"
++
++# variable name should not be any space
++# first name = "Pramod"
++first_name = "Pramod"
++# Python love the snake case , variable names are written
++varaible_name = "pramod"
++
++long_var_name_is_created_here = "Hello"
+Index: Ex_June/Ex_05-06-2024/LAB_011.py
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/Ex_June/Ex_05-06-2024/LAB_011.py b/Ex_June/Ex_05-06-2024/LAB_011.py
+new file mode 100644
+--- /dev/null	(date 1717677030000)
++++ b/Ex_June/Ex_05-06-2024/LAB_011.py	(date 1717677030000)
+@@ -0,0 +1,37 @@
++# Numbers
++# Integer (whole)
++
++age = 78
++age = -90
++roll_number = 123
++phone_number = 9876543210
++
++print(type(age))
++
++pi = 3.14
++gst = 0.18
++pi = -3.14
++
++print(type(pi))
++
++isMarried = True
++isSantoshMarried = False
++
++name ="Jyoti"
++name2 = 'Jyoti'
++name3 = """ Jyoti
++dasdasd
++das
++dasd
++asd
++as
++das
++da
++sd
++asd
++a
++"""
++
++print(type(name))
++print(type(name2))
++print(type(name3))
+\ No newline at end of file
+Index: Ex_June/Ex_05-06-2024/LAB_012.py
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/Ex_June/Ex_05-06-2024/LAB_012.py b/Ex_June/Ex_05-06-2024/LAB_012.py
+new file mode 100644
+--- /dev/null	(date 1717679244310)
++++ b/Ex_June/Ex_05-06-2024/LAB_012.py	(date 1717679244310)
+@@ -0,0 +1,7 @@
++# a = 10
++# b = 20
++# c = 30
++# print(a+b+c)
++
++a, b, c = 10, 20, 30
++print(a+b+c)
+\ No newline at end of file
+Index: Ex_June/Ex_05-06-2024/LAB_013.py
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/Ex_June/Ex_05-06-2024/LAB_013.py b/Ex_June/Ex_05-06-2024/LAB_013.py
+new file mode 100644
+--- /dev/null	(date 1717679297258)
++++ b/Ex_June/Ex_05-06-2024/LAB_013.py	(date 1717679297258)
+@@ -0,0 +1,4 @@
++# Take an input from the username, and print it.
++first_name = input("Enter your First name: ")
++last_name = input("Enter your Last name: ")
++print("Your first name is ", first_name, "and your last name is ", last_name)
+\ No newline at end of file
+Index: Ex_June/Ex_07-06-2024/Task 1/Task 1.py
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/Ex_June/Ex_07-06-2024/Task 1/Task 1.py b/Ex_June/Ex_07-06-2024/Task 1/Task 1.py
+new file mode 100644
+--- /dev/null	(date 1718429555477)
++++ b/Ex_June/Ex_07-06-2024/Task 1/Task 1.py	(date 1718429555477)
+@@ -0,0 +1,27 @@
++# 1. Explain the difference between the = operator and the == operator in Python.
++# Answer:
++# "=" operator assigns value to the particular variable.
++# "==" operator is used for the comparison or equality.
++
++
++
++
++# 2. What does the ** operator do in Python, and how is it used?
++# Answer: The "**" is an exponentiation operator.
++num = 4
++Exponential = 3
++result = num ** Exponential
++print(result)
++
++
++
++# 3. What does the ^ operator do in Python, and in what context is it commonly used?
++#Answer: It takes two numbers as operands and does XOR on every bit of two numbers.
++# The result of XOR is 1 if the two bits are different.
++a = 10
++b = 6
++result = a^b
++print(result)
++
++
++
+Index: Ex_June/Ex_07-06-2024/Task 2/Task 2a.py
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/Ex_June/Ex_07-06-2024/Task 2/Task 2a.py b/Ex_June/Ex_07-06-2024/Task 2/Task 2a.py
+new file mode 100644
+--- /dev/null	(date 1718429868863)
++++ b/Ex_June/Ex_07-06-2024/Task 2/Task 2a.py	(date 1718429868863)
+@@ -0,0 +1,11 @@
++# Develop a Python script that calculates the square and cube of a given number.
++# num = 2 sq - 4, c = 8
++
++number = int(input("Enter any number:"))
++square = pow(number, 2)
++print("The square of", number, "is", square)
++
++cube = pow(number, 3)
++print("The cube of", number, "is", cube)
++
++
+Index: Ex_June/Ex_07-06-2024/Task 2/Task 2b.py
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/Ex_June/Ex_07-06-2024/Task 2/Task 2b.py b/Ex_June/Ex_07-06-2024/Task 2/Task 2b.py
+new file mode 100644
+--- /dev/null	(date 1718430220073)
++++ b/Ex_June/Ex_07-06-2024/Task 2/Task 2b.py	(date 1718430220073)
+@@ -0,0 +1,14 @@
++# Create a program that takes two numbers as input and prints
++# whether the first number is greater than, less than, or equal to the second number.
++
++num_1 = int(input("Enter the first number:"))
++num_2 = int(input("Enter the second number:"))
++
++if num_1 > num_2:
++    print("The first number is greater than second number.")
++
++elif num_1 < num_2:
++    print("The first number is less than second number.")
++
++else:
++    print("Both the numbers are equal")
+\ No newline at end of file
+Index: Ex_June/Ex_07-06-2024/LAB_014.py
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/Ex_June/Ex_07-06-2024/LAB_014.py b/Ex_June/Ex_07-06-2024/LAB_014.py
+new file mode 100644
+--- /dev/null	(date 1718425640869)
++++ b/Ex_June/Ex_07-06-2024/LAB_014.py	(date 1718425640869)
+@@ -0,0 +1,29 @@
++print("Hello World")
++
++# Commment
++# Varaible
++# Data Types in Python
++# int, str, float, complex, bool
++
++# int
++a = 10
++print(a)
++
++#str
++b = "Hello"
++print(b)
++
++#float
++c = 10.5
++print(c)
++
++#complex
++d = 10 + 5j
++print(d)
++
++#bool
++e = True
++print(e)
++
++print(type(a))
++
+Index: Ex_June/Ex_07-06-2024/LAB_015.py
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/Ex_June/Ex_07-06-2024/LAB_015.py b/Ex_June/Ex_07-06-2024/LAB_015.py
+new file mode 100644
+--- /dev/null	(date 1718424359912)
++++ b/Ex_June/Ex_07-06-2024/LAB_015.py	(date 1718424359912)
+@@ -0,0 +1,7 @@
++# Advance Data Type in Python
++# List, Tuple, Set, Dict - DS - API and Web Automation.
++# Take a user input
++
++user_input = input("Enter yur name:")
++print(user_input)
++print(type(user_input))
+\ No newline at end of file
+Index: Ex_June/Ex_07-06-2024/LAB_016.py
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/Ex_June/Ex_07-06-2024/LAB_016.py b/Ex_June/Ex_07-06-2024/LAB_016.py
+new file mode 100644
+--- /dev/null	(date 1718424531862)
++++ b/Ex_June/Ex_07-06-2024/LAB_016.py	(date 1718424531862)
+@@ -0,0 +1,15 @@
++# Take the 2 int number from the user and we want to add them.
++# We need to use the input() function.
++
++num_1 = int(input("Enter the first number:"))
++num_2 = int(input("Enter the second number:"))
++
++result = num_1 + num_2
++print(result)
++
++#  + ->  int  sum operation
++#  + -> str - concat
++# int to str -> str()
++# str to int -> int()
++
++print(type(num_1))
+\ No newline at end of file
+Index: Ex_June/Ex_07-06-2024/LAB_017.py
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/Ex_June/Ex_07-06-2024/LAB_017.py b/Ex_June/Ex_07-06-2024/LAB_017.py
+new file mode 100644
+--- /dev/null	(date 1718424719243)
++++ b/Ex_June/Ex_07-06-2024/LAB_017.py	(date 1718424719243)
+@@ -0,0 +1,9 @@
++pi = 3.14
++print(pi)
++print(type(pi))
++
++i = 10
++i2 = 12
++result = i2 / i
++print(result) # Python is very smart, it knows that 12/10 is a float
++print(type(result))
+\ No newline at end of file
+Index: Ex_June/Ex_07-06-2024/LAB_018.py
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/Ex_June/Ex_07-06-2024/LAB_018.py b/Ex_June/Ex_07-06-2024/LAB_018.py
+new file mode 100644
+--- /dev/null	(date 1718425023961)
++++ b/Ex_June/Ex_07-06-2024/LAB_018.py	(date 1718425023961)
+@@ -0,0 +1,34 @@
++# Strings
++# Bunch of Char
++# '', "" , """
++
++name = 'Harry'
++print(name)
++
++name = "Harry"
++print(name)
++
++name = """ Harry, Is is Good person
++He love to walk alone, He has a dog
++....
++....
++
++.... """
++print(name)
++
++# Raw String
++dir = r'C:\nomedir\some dir'
++print(dir)
++
++# Format of the String
++first_name = "Harry"
++last_name = "Potter"
++print(first_name + " " + last_name)
++print(first_name, last_name)
++
++# f -> formatting - it will replace the values of the variables
++#{} -> placeholders
++print(f"Your full name is {first_name} {last_name}")
++
++
++
+Index: Ex_June/Ex_07-06-2024/LAB_019.py
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/Ex_June/Ex_07-06-2024/LAB_019.py b/Ex_June/Ex_07-06-2024/LAB_019.py
+new file mode 100644
+--- /dev/null	(date 1718425510421)
++++ b/Ex_June/Ex_07-06-2024/LAB_019.py	(date 1718425510421)
+@@ -0,0 +1,18 @@
++# Format String
++
++print(2*1)
++num = 90
++print(f"The number is {num * 2}")
++print(f"The number is {num * 3}")
++
++num = 5
++print(f"{num}x1 = {num}")
++print(f"{num}x2 = {num * 2}")
++print(f"{num}x3 = {num*3}")
++print(f"{num}x10={num * 10}")
++
++b = 1
++print(f"{b}x1 = {b}")
++print("2x{} = {}, {}".format( b, b * 2, 3))
++# This is just use to showcase the output.
++
+Index: Ex_June/Ex_07-06-2024/LAB_020.py
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/Ex_June/Ex_07-06-2024/LAB_020.py b/Ex_June/Ex_07-06-2024/LAB_020.py
+new file mode 100644
+--- /dev/null	(date 1718426111964)
++++ b/Ex_June/Ex_07-06-2024/LAB_020.py	(date 1718426111964)
+@@ -0,0 +1,28 @@
++# In built Functions -
++# Function -> Repeat a task - You can use a function.
++# print(),input, type(), format(), max, min, id(), sum(), avg()
++
++# Strings
++name = "Amit" # index : 0 to 3
++# 0,1,2,3
++# A,m,i,t
++
++print(name)
++print(type(name))
++print(id(name)) # id -> memory address where it is stored 4309895152
++print(len(name))
++
++# length of string always starts from 1
++name = name.upper()
++print(name)
++name = name.lower()
++print(name)
++
++a = name.count('A')
++print(a)
++
++# print(name[4]) string index out of range
++
++# Python - Immutable - that can't be changed
++# name[0] = "P" # 'str' object does not support item assignment
++
+Index: Ex_June/Ex_07-06-2024/LAB_021.py
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/Ex_June/Ex_07-06-2024/LAB_021.py b/Ex_June/Ex_07-06-2024/LAB_021.py
+new file mode 100644
+--- /dev/null	(date 1718426604775)
++++ b/Ex_June/Ex_07-06-2024/LAB_021.py	(date 1718426604775)
+@@ -0,0 +1,7 @@
++name = "This is a big line"
++print(len(name))
++print(type(name))
++print(name[14])
++print(name[-1])
++print(name[-2])
++print(name[-10])
+\ No newline at end of file
+Index: Ex_June/Ex_07-06-2024/LAB_022.py
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/Ex_June/Ex_07-06-2024/LAB_022.py b/Ex_June/Ex_07-06-2024/LAB_022.py
+new file mode 100644
+--- /dev/null	(date 1718426836514)
++++ b/Ex_June/Ex_07-06-2024/LAB_022.py	(date 1718426836514)
+@@ -0,0 +1,22 @@
++val = None
++# val = val+1 # unsupported operand type(s) for +: 'NoneType' and 'int'
++# Data Type  - NoneType
++print(val)
++
++# Nothing
++# None is not a default value
++# None is not 0.
++# None is not an empty string.
++# None is not the same as False.
++
++name = "" # empty String - memory allocated
++print(id(name)) # id of the empty string
++
++name = None
++print(type(name)) # NoneType
++print(id(name))
++
++name = "Amit"
++print(name)
++print(id(name))
++
+Index: Ex_June/Ex_07-06-2024/LAB_023.py
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/Ex_June/Ex_07-06-2024/LAB_023.py b/Ex_June/Ex_07-06-2024/LAB_023.py
+new file mode 100644
+--- /dev/null	(date 1718427471650)
++++ b/Ex_June/Ex_07-06-2024/LAB_023.py	(date 1718427471650)
+@@ -0,0 +1,41 @@
++# List - Shopping List
++# milk, bread, butter, poha
++# 1. Add item
++# 2. Remove item
++# 3. Update item
++# 4. View item
++# 5. Exit
++
++shopping_list = ["milk", "bread", "butter", "poha"]
++print(shopping_list)
++print(len(shopping_list))
++print(shopping_list[0])
++print(shopping_list[-1])
++
++shopping_list.append("curd") # Add item in the end
++print(shopping_list)
++
++shopping_list.insert(3, "jam")
++print(shopping_list)
++
++shopping_list.extend(["chips", "salt"])
++print(shopping_list)
++
++shopping_list.remove("bread") # Remove item
++print(shopping_list)
++
++print(shopping_list.pop()) #prints last item in the list
++
++print(shopping_list.index("butter"))
++
++shopping_list.reverse()
++print(shopping_list)
++
++shopping_list.sort()
++print(shopping_list)
++
++shopping_list[0] = "Jyoti"
++print(shopping_list)
++
++my_list = [1, 2, 3, 4, True, 3.14, "Jyoti"]
++print(type(my_list)) # <class 'list'>
+Index: Ex_June/Ex_07-06-2024/LAB_024.py
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/Ex_June/Ex_07-06-2024/LAB_024.py b/Ex_June/Ex_07-06-2024/LAB_024.py
+new file mode 100644
+--- /dev/null	(date 1718427915660)
++++ b/Ex_June/Ex_07-06-2024/LAB_024.py	(date 1718427915660)
+@@ -0,0 +1,6 @@
++# Escape Seq
++
++print("Hello \"World\"")
++print("Hello \nworld")
++print("Hello \tworld")
++print("Hello \bworld")
+Index: Ex_June/EX_10-06-2024/Task 3/Task3.py
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/Ex_June/EX_10-06-2024/Task 3/Task3.py b/Ex_June/EX_10-06-2024/Task 3/Task3.py
+new file mode 100644
+--- /dev/null	(date 1718465844024)
++++ b/Ex_June/EX_10-06-2024/Task 3/Task3.py	(date 1718465844024)
+@@ -0,0 +1,7 @@
++ # Program - Calculate the area of circle.
++
++import math
++
++radius = float(input("Enter the value of the radius:"))
++area = math.pi*(math.pow(radius, 2))
++print("The area of a circle with radius", radius, "meter is", area, "square meter")
+\ No newline at end of file
+Index: Ex_June/EX_10-06-2024/LAB_025.py
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/Ex_June/EX_10-06-2024/LAB_025.py b/Ex_June/EX_10-06-2024/LAB_025.py
+new file mode 100644
+--- /dev/null	(date 1718465844022)
++++ b/Ex_June/EX_10-06-2024/LAB_025.py	(date 1718465844022)
+@@ -0,0 +1,15 @@
++# Literals
++# var_name = variable_value
++
++name = "Jyoti"
++# var_name -> Identifier
++# var_val -> Literals
++# Literals are the actual values assigned
++# Literals can be Numeric and Non-Numeric.
++
++age = 12
++pi = 3.14
++is_married = True
++have_lambo = None
++my_list = []
++my_set = {}
+\ No newline at end of file
+Index: Ex_June/EX_10-06-2024/LAB_026.py
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/Ex_June/EX_10-06-2024/LAB_026.py b/Ex_June/EX_10-06-2024/LAB_026.py
+new file mode 100644
+--- /dev/null	(date 1718465844022)
++++ b/Ex_June/EX_10-06-2024/LAB_026.py	(date 1718465844022)
+@@ -0,0 +1,6 @@
++my_set = {1, 2, 3, 4, 5, 5}  # Collection of Unique items
++print(my_set)
++
++newline_char = "\n"
++newline_char_2 = "\t"
++newline_char_3 = "\b" # backspace
+Index: Ex_June/EX_10-06-2024/LAB_027.py
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/Ex_June/EX_10-06-2024/LAB_027.py b/Ex_June/EX_10-06-2024/LAB_027.py
+new file mode 100644
+--- /dev/null	(date 1718465844022)
++++ b/Ex_June/EX_10-06-2024/LAB_027.py	(date 1718465844022)
+@@ -0,0 +1,30 @@
++is_married = True
++is_Jyoti_married = False
++
++# Decimal Number System
++age = 65
++
++# Binary 0, 1
++number_ten = 0b1010 # -> decimal = 10
++# 10 -> 1010
++
++# Oct
++c = 0o130
++
++#hex
++d = 0x12c
++
++#string
++name = "Jyoti"
++name_2 = 'Jyoti'
++
++mul_string_line = """ This is Multi
++line strng we can have
++lines which you can type
++anything
++like story"""
++
++# Boolean Literals
++x = True
++y = False
++
+Index: Ex_June/EX_10-06-2024/LAB_028.py
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/Ex_June/EX_10-06-2024/LAB_028.py b/Ex_June/EX_10-06-2024/LAB_028.py
+new file mode 100644
+--- /dev/null	(date 1718465844022)
++++ b/Ex_June/EX_10-06-2024/LAB_028.py	(date 1718465844022)
+@@ -0,0 +1,41 @@
++# Operators
++
++# Assignment Operator
++# "=" - assign the value from right to left
++name = "Jyoti"
++
++# == -> Compare operator ( It always returns a boolean value)
++
++v1 = (1 == True)
++v2 = (0 == False)
++print(v1)
++print(v2)
++
++age = +65 # Unary Operator + ( Pycharm +_ -> Remove, Self exp.
++num = -1
++print(age)
++print(num)
++r = age + num # BODMAS - Math
++print(r)
++
++# Not Operator (Boolean)
++is_married = True
++print(not is_married)
++
++# Is Operator - Identity Operator - Return bool
++# List
++a = 5
++b = 6
++c = False
++
++print(a is b)
++
++my_list = [1, 2, 3]
++my_list_2 = [1, 2, 3]
++print(my_list is my_list_2)
++
++# is - How? - Conditions
++
++
++
++
+Index: Ex_June/EX_10-06-2024/LAB_029.py
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/Ex_June/EX_10-06-2024/LAB_029.py b/Ex_June/EX_10-06-2024/LAB_029.py
+new file mode 100644
+--- /dev/null	(date 1718465844022)
++++ b/Ex_June/EX_10-06-2024/LAB_029.py	(date 1718465844022)
+@@ -0,0 +1,22 @@
++# Arithmetic Operators
++# +,-,*,/, %
++a = 180
++b = 90
++print(a + b)
++print(a - b)
++print(a * b)
++print(a / b) # Float - Why Python is smart - div
++
++print(a % b)
++print(10 ** 2) # 10 raised to power 2
++r = pow(10, 2)
++print(r)
++
++# Modulus - Operator -> Reminder
++# 90 | 180 | 2
++#    | 180 |
++#    |   0 |
++#
++print(87 % 10)  #Gives reminder
++print(87 // 10) # Gives Quotient
++
+Index: Ex_June/EX_10-06-2024/LAB_030.py
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/Ex_June/EX_10-06-2024/LAB_030.py b/Ex_June/EX_10-06-2024/LAB_030.py
+new file mode 100644
+--- /dev/null	(date 1718465844023)
++++ b/Ex_June/EX_10-06-2024/LAB_030.py	(date 1718465844023)
+@@ -0,0 +1,21 @@
++print(10 / 10)
++
++# Logical Operator - bool
++x = 10
++y = 20
++print(x > y)
++print(x < y)
++
++a = 10
++b = 10
++print(a >= b) # 10 > 10 or 10 = 10
++print(a == b) # 10 = 10
++print(not a)
++
++# Or Gate
++f= False
++t = True
++print(f and t)
++print(f or t) # Truth Table of or
++
++
+Index: Ex_June/EX_10-06-2024/LAB_031.py
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/Ex_June/EX_10-06-2024/LAB_031.py b/Ex_June/EX_10-06-2024/LAB_031.py
+new file mode 100644
+--- /dev/null	(date 1718465844023)
++++ b/Ex_June/EX_10-06-2024/LAB_031.py	(date 1718465844023)
+@@ -0,0 +1,4 @@
++x = 10
++y = 20
++result = (x != y) # 10 not equal 20 -> True
++print(result)
+\ No newline at end of file
+Index: Ex_June/EX_10-06-2024/LAB_032.py
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/Ex_June/EX_10-06-2024/LAB_032.py b/Ex_June/EX_10-06-2024/LAB_032.py
+new file mode 100644
+--- /dev/null	(date 1718465844023)
++++ b/Ex_June/EX_10-06-2024/LAB_032.py	(date 1718465844023)
+@@ -0,0 +1,13 @@
++# Ternary Operator
++promod_marks = 90
++amit_marks = 97
++
++# x > y -> do something - print("pramod is winner")
++# y > x -> do something else -> print("amit is winner")
++
++print("Promod is winner" if promod_marks > amit_marks else "Amit is winner")
++
++if promod_marks > amit_marks:
++    print("Promod is winner")
++else:
++    print("Amit is winner")
+\ No newline at end of file
+Index: Ex_June/EX_10-06-2024/LAB_033.py
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/Ex_June/EX_10-06-2024/LAB_033.py b/Ex_June/EX_10-06-2024/LAB_033.py
+new file mode 100644
+--- /dev/null	(date 1718465844023)
++++ b/Ex_June/EX_10-06-2024/LAB_033.py	(date 1718465844023)
+@@ -0,0 +1,19 @@
++# Program - Calculate the area of circle.
++# input -> radius
++# output -> area
++
++import math
++# data types
++# input -> int or float -> float
++# output -> float
++
++# Core Logic -> pi*r*r = 3.14
++
++radius = float(input("Enter the value of the radius:"))
++print(math.pi)
++area = math.pi*(radius ** 2)
++print(area)
++area_2 = math.pi*(math.pow(radius, 2))
++print(area_2)
++
++
+Index: Ex_June/EX_10-06-2024/LAB_034.py
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/Ex_June/EX_10-06-2024/LAB_034.py b/Ex_June/EX_10-06-2024/LAB_034.py
+new file mode 100644
+--- /dev/null	(date 1718465844023)
++++ b/Ex_June/EX_10-06-2024/LAB_034.py	(date 1718465844023)
+@@ -0,0 +1,1 @@
++print(3.141592653589793*float(input("Enter the value of radius:"))**2)
+\ No newline at end of file
+Index: Ex_June/EX_10-06-2024/LAB_035.py
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/Ex_June/EX_10-06-2024/LAB_035.py b/Ex_June/EX_10-06-2024/LAB_035.py
+new file mode 100644
+--- /dev/null	(date 1718465844023)
++++ b/Ex_June/EX_10-06-2024/LAB_035.py	(date 1718465844023)
+@@ -0,0 +1,9 @@
++# Math
++import math
++a = math.pow(2,2)
++pi = math.pi
++print(a)
++print(pi)
++
++result = math.sin(90)
++print(result)
+Index: Ex_June/EX_10-06-2024/LAB_036.py
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/Ex_June/EX_10-06-2024/LAB_036.py b/Ex_June/EX_10-06-2024/LAB_036.py
+new file mode 100644
+--- /dev/null	(date 1718465844023)
++++ b/Ex_June/EX_10-06-2024/LAB_036.py	(date 1718465844023)
+@@ -0,0 +1,3 @@
++# New File
++
++print("This is a test program")
+\ No newline at end of file
+Index: Ex_June/EX_10-06-2024/LAB_037.py
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/Ex_June/EX_10-06-2024/LAB_037.py b/Ex_June/EX_10-06-2024/LAB_037.py
+new file mode 100644
+--- /dev/null	(date 1718465844023)
++++ b/Ex_June/EX_10-06-2024/LAB_037.py	(date 1718465844023)
+@@ -0,0 +1,1 @@
++print("Hello")
+\ No newline at end of file
+Index: Ex_June/Ex_12-06-2024/LAB_038.py
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/Ex_June/Ex_12-06-2024/LAB_038.py b/Ex_June/Ex_12-06-2024/LAB_038.py
+new file mode 100644
+--- /dev/null	(date 1718465844024)
++++ b/Ex_June/Ex_12-06-2024/LAB_038.py	(date 1718465844024)
+@@ -0,0 +1,24 @@
++ # ✅ Conditions
++# age > 18 -> You are allowed to go the club
++# age < 18 -> You are not allowed
++
++# pramod -> goa -> father permission
++# pramod -> no goa -> no permission
++
++# If, ELSE
++# Syntax
++# if condition:
++#      code to be executed
++# else:
++#     code to be executed when condition is false
++
++# Write a program to take a user age and let him know if he can go the club.
++
++# Take a user input
++
++age = int(input("Enter your age:"))
++
++if age > 18:
++    print("Go to the club")
++else:
++    print("Not allowed")
+Index: Ex_June/Ex_12-06-2024/LAB_039.py
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/Ex_June/Ex_12-06-2024/LAB_039.py b/Ex_June/Ex_12-06-2024/LAB_039.py
+new file mode 100644
+--- /dev/null	(date 1718465844024)
++++ b/Ex_June/Ex_12-06-2024/LAB_039.py	(date 1718465844024)
+@@ -0,0 +1,5 @@
++a = 8
++if a == 5:
++    print("Hello") # = Assignment, == condition
++else:
++    print("Bye")
+Index: Ex_June/Ex_12-06-2024/LAB_040.py
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/Ex_June/Ex_12-06-2024/LAB_040.py b/Ex_June/Ex_12-06-2024/LAB_040.py
+new file mode 100644
+--- /dev/null	(date 1718465844024)
++++ b/Ex_June/Ex_12-06-2024/LAB_040.py	(date 1718465844024)
+@@ -0,0 +1,19 @@
++# Avinash - Multiple COndtion
++
++a = 10
++b = 45
++x = 10
++y = 67
++
++result_1 = (a > b) #False
++result_2 = (x < y)  #True
++result_3 = result_1 and result_2
++print(result_3) # False
++
++#And Gate
++# False |False | False
++# False |True  |  False
++# True  |False | False
++# True  |True  | True
++
++
+Index: Ex_June/Ex_12-06-2024/LAB_041.py
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/Ex_June/Ex_12-06-2024/LAB_041.py b/Ex_June/Ex_12-06-2024/LAB_041.py
+new file mode 100644
+--- /dev/null	(date 1718465844024)
++++ b/Ex_June/Ex_12-06-2024/LAB_041.py	(date 1718465844024)
+@@ -0,0 +1,11 @@
++a = int(input("Enter num_1: "))
++b = int(input("Enter num_2: "))
++
++# Max
++result = max(a,b)
++print(result)
++
++if a > b:
++    print(a)
++else:
++    print(b)
+\ No newline at end of file
+Index: Ex_June/Ex_12-06-2024/LAB_042.py
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/Ex_June/Ex_12-06-2024/LAB_042.py b/Ex_June/Ex_12-06-2024/LAB_042.py
+new file mode 100644
+--- /dev/null	(date 1718465844025)
++++ b/Ex_June/Ex_12-06-2024/LAB_042.py	(date 1718465844025)
+@@ -0,0 +1,27 @@
++# Avinash - Multiple Condition
++
++# Problem  Find the Max between 3 numbers
++
++# num1, num2 , num3
++
++# num1 > num2 and num1 > num3 ->  num1
++
++# num2 > num1 and num2 > num3 -> num2
++
++# num3
++
++num_1 = int(input("Enter the first number:"))
++num_2 = int(input("Enter the second number:"))
++num_3 = int(input("Enter the third number:"))
++
++if num_1 >= num_2 and num_1 >= num_3:
++    print(num_1)
++elif num_2 >= num_1 and num_2 >= num_3:
++    print(num_2)
++else:
++    print(num_3)
++
++# max()
++# outTrue if conditin else outfalse
++# result = print(max(num_1, num_2, num_3))
++
+Index: Ex_June/Ex_12-06-2024/LAB_043.py
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/Ex_June/Ex_12-06-2024/LAB_043.py b/Ex_June/Ex_12-06-2024/LAB_043.py
+new file mode 100644
+--- /dev/null	(date 1718465844025)
++++ b/Ex_June/Ex_12-06-2024/LAB_043.py	(date 1718465844025)
+@@ -0,0 +1,30 @@
++#  LOOPs
++# Repeat a block of code multiple times.
++
++# Print Hello World 10 times
++
++# print("Hello World")
++# print("Hello World")
++# print("Hello World")
++# print("Hello World")
++# print("Hello World")
++# print("Hello World")
++# print("Hello World")
++# print("Hello World")
++# print("Hello World")
++# print("Hello World")
++
++# for loop
++
++# for jyoti in range(5): # 0 to 4
++    # print(jyoti)
++
++# for amit in range(1, 5): # 1 to 4
++    # print(amit)
++
++# for i in range(3, 5):
++    # print(i)
++
++#Range(start, stop, step)
++for i in range(1, 10, 2):
++    print(i)
+Index: .idea/workspace.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<project version=\"4\">\n  <component name=\"AutoImportSettings\">\n    <option name=\"autoReloadType\" value=\"SELECTIVE\" />\n  </component>\n  <component name=\"ChangeListManager\">\n    <list default=\"true\" id=\"83304dca-33c1-4f3c-bb2d-3bec65755190\" name=\"Changes\" comment=\"Operators and literals\">\n      <change afterPath=\"$PROJECT_DIR$/Copy of all exercises/Ex_07-06-2024/LAB_014.py\" afterDir=\"false\" />\n      <change afterPath=\"$PROJECT_DIR$/Copy of all exercises/Ex_07-06-2024/LAB_015.py\" afterDir=\"false\" />\n      <change afterPath=\"$PROJECT_DIR$/Copy of all exercises/Ex_07-06-2024/LAB_016.py\" afterDir=\"false\" />\n      <change afterPath=\"$PROJECT_DIR$/Copy of all exercises/Ex_07-06-2024/LAB_017.py\" afterDir=\"false\" />\n      <change afterPath=\"$PROJECT_DIR$/Copy of all exercises/Ex_07-06-2024/LAB_018.py\" afterDir=\"false\" />\n      <change afterPath=\"$PROJECT_DIR$/Copy of all exercises/Ex_07-06-2024/LAB_019.py\" afterDir=\"false\" />\n      <change afterPath=\"$PROJECT_DIR$/Copy of all exercises/Ex_07-06-2024/LAB_020.py\" afterDir=\"false\" />\n      <change afterPath=\"$PROJECT_DIR$/Copy of all exercises/Ex_07-06-2024/LAB_021.py\" afterDir=\"false\" />\n      <change afterPath=\"$PROJECT_DIR$/Copy of all exercises/Ex_07-06-2024/LAB_022.py\" afterDir=\"false\" />\n      <change afterPath=\"$PROJECT_DIR$/Copy of all exercises/Ex_07-06-2024/LAB_023.py\" afterDir=\"false\" />\n      <change afterPath=\"$PROJECT_DIR$/Copy of all exercises/Ex_07-06-2024/LAB_024.py\" afterDir=\"false\" />\n      <change afterPath=\"$PROJECT_DIR$/Copy of all exercises/Ex_07-06-2024/Task 1/Task 1.py\" afterDir=\"false\" />\n      <change afterPath=\"$PROJECT_DIR$/Copy of all exercises/Ex_07-06-2024/Task 2/Task 2a.py\" afterDir=\"false\" />\n      <change afterPath=\"$PROJECT_DIR$/Copy of all exercises/Ex_07-06-2024/Task 2/Task 2b.py\" afterDir=\"false\" />\n      <change afterPath=\"$PROJECT_DIR$/Copy of all exercises/Ex_1-03-06-2024/LAB_001.py\" afterDir=\"false\" />\n      <change afterPath=\"$PROJECT_DIR$/Copy of all exercises/Ex_3-05-06-2024/LAB_002.py\" afterDir=\"false\" />\n      <change afterPath=\"$PROJECT_DIR$/Copy of all exercises/Ex_3-05-06-2024/LAB_003.py\" afterDir=\"false\" />\n      <change afterPath=\"$PROJECT_DIR$/Copy of all exercises/Ex_3-05-06-2024/LAB_004.py\" afterDir=\"false\" />\n      <change afterPath=\"$PROJECT_DIR$/Copy of all exercises/Ex_3-05-06-2024/LAB_005.py\" afterDir=\"false\" />\n      <change afterPath=\"$PROJECT_DIR$/Copy of all exercises/Ex_3-05-06-2024/LAB_006.py\" afterDir=\"false\" />\n      <change afterPath=\"$PROJECT_DIR$/Copy of all exercises/Ex_3-05-06-2024/LAB_007.py\" afterDir=\"false\" />\n      <change afterPath=\"$PROJECT_DIR$/Copy of all exercises/Ex_3-05-06-2024/LAB_008.py\" afterDir=\"false\" />\n      <change afterPath=\"$PROJECT_DIR$/Copy of all exercises/Ex_3-05-06-2024/LAB_009.py\" afterDir=\"false\" />\n      <change afterPath=\"$PROJECT_DIR$/Copy of all exercises/Ex_3-05-06-2024/LAB_010.py\" afterDir=\"false\" />\n      <change afterPath=\"$PROJECT_DIR$/Copy of all exercises/Ex_3-05-06-2024/LAB_011.py\" afterDir=\"false\" />\n      <change afterPath=\"$PROJECT_DIR$/Copy of all exercises/Ex_3-05-06-2024/LAB_012.py\" afterDir=\"false\" />\n      <change afterPath=\"$PROJECT_DIR$/Copy of all exercises/Ex_3-05-06-2024/LAB_013.py\" afterDir=\"false\" />\n      <change afterPath=\"$PROJECT_DIR$/Test/TEst.py\" afterDir=\"false\" />\n      <change beforePath=\"$PROJECT_DIR$/.idea/workspace.xml\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/.idea/workspace.xml\" afterDir=\"false\" />\n    </list>\n    <option name=\"SHOW_DIALOG\" value=\"false\" />\n    <option name=\"HIGHLIGHT_CONFLICTS\" value=\"true\" />\n    <option name=\"HIGHLIGHT_NON_ACTIVE_CHANGELIST\" value=\"false\" />\n    <option name=\"LAST_RESOLUTION\" value=\"IGNORE\" />\n  </component>\n  <component name=\"FileTemplateManagerImpl\">\n    <option name=\"RECENT_TEMPLATES\">\n      <list>\n        <option value=\"Python Script\" />\n      </list>\n    </option>\n  </component>\n  <component name=\"Git.Settings\">\n    <option name=\"PUSH_AUTO_UPDATE\" value=\"true\" />\n    <option name=\"RECENT_GIT_ROOT_PATH\" value=\"$PROJECT_DIR$\" />\n    <option name=\"UPDATE_TYPE\" value=\"REBASE\" />\n  </component>\n  <component name=\"HighlightingSettingsPerFile\">\n    <setting file=\"file://$PROJECT_DIR$/Ex_07-06-2024/Task 2/Task 2a.py\" root0=\"FORCE_HIGHLIGHTING\" />\n  </component>\n  <component name=\"ProblemsViewState\">\n    <option name=\"selectedTabId\" value=\"CurrentFile\" />\n  </component>\n  <component name=\"ProjectColorInfo\">{\n  &quot;associatedIndex&quot;: 8\n}</component>\n  <component name=\"ProjectId\" id=\"2hNHYnoDEE51vNnLDfoRDfciz5O\" />\n  <component name=\"ProjectLevelVcsManager\" settingsEditedManually=\"true\" />\n  <component name=\"ProjectViewState\">\n    <option name=\"hideEmptyMiddlePackages\" value=\"true\" />\n    <option name=\"showLibraryContents\" value=\"true\" />\n  </component>\n  <component name=\"PropertiesComponent\">{\n  &quot;keyToString&quot;: {\n    &quot;Python.LAB_001.executor&quot;: &quot;Run&quot;,\n    &quot;Python.LAB_002.executor&quot;: &quot;Run&quot;,\n    &quot;Python.LAB_003.executor&quot;: &quot;Run&quot;,\n    &quot;Python.LAB_004.executor&quot;: &quot;Run&quot;,\n    &quot;Python.LAB_005.executor&quot;: &quot;Run&quot;,\n    &quot;Python.LAB_006.executor&quot;: &quot;Run&quot;,\n    &quot;Python.LAB_007.executor&quot;: &quot;Run&quot;,\n    &quot;Python.LAB_008a.executor&quot;: &quot;Run&quot;,\n    &quot;Python.LAB_009.executor&quot;: &quot;Run&quot;,\n    &quot;Python.LAB_011.executor&quot;: &quot;Run&quot;,\n    &quot;Python.LAB_012.executor&quot;: &quot;Run&quot;,\n    &quot;Python.LAB_013.executor&quot;: &quot;Run&quot;,\n    &quot;Python.LAB_014.executor&quot;: &quot;Run&quot;,\n    &quot;Python.LAB_015.executor&quot;: &quot;Run&quot;,\n    &quot;Python.LAB_017.executor&quot;: &quot;Run&quot;,\n    &quot;Python.LAB_018.executor&quot;: &quot;Run&quot;,\n    &quot;Python.LAB_019.executor&quot;: &quot;Run&quot;,\n    &quot;Python.LAB_020.executor&quot;: &quot;Run&quot;,\n    &quot;Python.LAB_021.executor&quot;: &quot;Run&quot;,\n    &quot;Python.LAB_022.executor&quot;: &quot;Run&quot;,\n    &quot;Python.LAB_023.executor&quot;: &quot;Run&quot;,\n    &quot;Python.LAB_024.executor&quot;: &quot;Run&quot;,\n    &quot;Python.TEst.executor&quot;: &quot;Run&quot;,\n    &quot;Python.Task 1.executor&quot;: &quot;Run&quot;,\n    &quot;Python.Task 2a.executor&quot;: &quot;Run&quot;,\n    &quot;Python.Task 2b.executor&quot;: &quot;Run&quot;,\n    &quot;Python.Test.executor&quot;: &quot;Run&quot;,\n    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,\n    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,\n    &quot;git-widget-placeholder&quot;: &quot;main&quot;,\n    &quot;last_opened_file_path&quot;: &quot;/Users/jyotiparmar/PycharmProjects/pylearning3xATB/Copy of all exercises&quot;,\n    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,\n    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,\n    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,\n    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,\n    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,\n    &quot;settings.editor.selected.configurable&quot;: &quot;project.propVCSSupport.CommitDialog&quot;,\n    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;\n  },\n  &quot;keyToStringList&quot;: {\n    &quot;GitStage.ChangesTree.GroupingKeys&quot;: [\n      &quot;directory&quot;,\n      &quot;module&quot;,\n      &quot;repository&quot;\n    ]\n  }\n}</component>\n  <component name=\"RecentsManager\">\n    <key name=\"CopyFile.RECENT_KEYS\">\n      <recent name=\"$PROJECT_DIR$/Copy of all exercises\" />\n    </key>\n    <key name=\"MoveFile.RECENT_KEYS\">\n      <recent name=\"$PROJECT_DIR$/Ex_07-06-2024/Task 1\" />\n      <recent name=\"$PROJECT_DIR$/Ex_07-06-2024/Task 2\" />\n      <recent name=\"$PROJECT_DIR$/Ex_5\" />\n    </key>\n  </component>\n  <component name=\"RunManager\" selected=\"Python.LAB_014\">\n    <configuration name=\"LAB_002\" type=\"PythonConfigurationType\" factoryName=\"Python\" nameIsGenerated=\"true\">\n      <module name=\"pylearning3xATB\" />\n      <option name=\"ENV_FILES\" value=\"\" />\n      <option name=\"INTERPRETER_OPTIONS\" value=\"\" />\n      <option name=\"PARENT_ENVS\" value=\"true\" />\n      <envs>\n        <env name=\"PYTHONUNBUFFERED\" value=\"1\" />\n      </envs>\n      <option name=\"SDK_HOME\" value=\"\" />\n      <option name=\"WORKING_DIRECTORY\" value=\"$PROJECT_DIR$/Ex_05-06-2024\" />\n      <option name=\"IS_MODULE_SDK\" value=\"true\" />\n      <option name=\"ADD_CONTENT_ROOTS\" value=\"true\" />\n      <option name=\"ADD_SOURCE_ROOTS\" value=\"true\" />\n      <option name=\"SCRIPT_NAME\" value=\"$PROJECT_DIR$/Ex_05-06-2024/LAB_002.py\" />\n      <option name=\"PARAMETERS\" value=\"\" />\n      <option name=\"SHOW_COMMAND_LINE\" value=\"false\" />\n      <option name=\"EMULATE_TERMINAL\" value=\"true\" />\n      <option name=\"MODULE_MODE\" value=\"false\" />\n      <option name=\"REDIRECT_INPUT\" value=\"false\" />\n      <option name=\"INPUT_FILE\" value=\"\" />\n      <method v=\"2\" />\n    </configuration>\n    <configuration name=\"LAB_011\" type=\"PythonConfigurationType\" factoryName=\"Python\" temporary=\"true\" nameIsGenerated=\"true\">\n      <module name=\"pylearning3xATB\" />\n      <option name=\"ENV_FILES\" value=\"\" />\n      <option name=\"INTERPRETER_OPTIONS\" value=\"\" />\n      <option name=\"PARENT_ENVS\" value=\"true\" />\n      <envs>\n        <env name=\"PYTHONUNBUFFERED\" value=\"1\" />\n      </envs>\n      <option name=\"SDK_HOME\" value=\"\" />\n      <option name=\"WORKING_DIRECTORY\" value=\"$PROJECT_DIR$/Ex_05-06-2024\" />\n      <option name=\"IS_MODULE_SDK\" value=\"true\" />\n      <option name=\"ADD_CONTENT_ROOTS\" value=\"true\" />\n      <option name=\"ADD_SOURCE_ROOTS\" value=\"true\" />\n      <option name=\"SCRIPT_NAME\" value=\"$PROJECT_DIR$/Ex_05-06-2024/LAB_011.py\" />\n      <option name=\"PARAMETERS\" value=\"\" />\n      <option name=\"SHOW_COMMAND_LINE\" value=\"false\" />\n      <option name=\"EMULATE_TERMINAL\" value=\"false\" />\n      <option name=\"MODULE_MODE\" value=\"false\" />\n      <option name=\"REDIRECT_INPUT\" value=\"false\" />\n      <option name=\"INPUT_FILE\" value=\"\" />\n      <method v=\"2\" />\n    </configuration>\n    <configuration name=\"LAB_012\" type=\"PythonConfigurationType\" factoryName=\"Python\" temporary=\"true\" nameIsGenerated=\"true\">\n      <module name=\"pylearning3xATB\" />\n      <option name=\"ENV_FILES\" value=\"\" />\n      <option name=\"INTERPRETER_OPTIONS\" value=\"\" />\n      <option name=\"PARENT_ENVS\" value=\"true\" />\n      <envs>\n        <env name=\"PYTHONUNBUFFERED\" value=\"1\" />\n      </envs>\n      <option name=\"SDK_HOME\" value=\"\" />\n      <option name=\"WORKING_DIRECTORY\" value=\"$PROJECT_DIR$/Ex_05-06-2024\" />\n      <option name=\"IS_MODULE_SDK\" value=\"true\" />\n      <option name=\"ADD_CONTENT_ROOTS\" value=\"true\" />\n      <option name=\"ADD_SOURCE_ROOTS\" value=\"true\" />\n      <option name=\"SCRIPT_NAME\" value=\"$PROJECT_DIR$/Ex_05-06-2024/LAB_012.py\" />\n      <option name=\"PARAMETERS\" value=\"\" />\n      <option name=\"SHOW_COMMAND_LINE\" value=\"false\" />\n      <option name=\"EMULATE_TERMINAL\" value=\"false\" />\n      <option name=\"MODULE_MODE\" value=\"false\" />\n      <option name=\"REDIRECT_INPUT\" value=\"false\" />\n      <option name=\"INPUT_FILE\" value=\"\" />\n      <method v=\"2\" />\n    </configuration>\n    <configuration name=\"LAB_013\" type=\"PythonConfigurationType\" factoryName=\"Python\" temporary=\"true\" nameIsGenerated=\"true\">\n      <module name=\"pylearning3xATB\" />\n      <option name=\"ENV_FILES\" value=\"\" />\n      <option name=\"INTERPRETER_OPTIONS\" value=\"\" />\n      <option name=\"PARENT_ENVS\" value=\"true\" />\n      <envs>\n        <env name=\"PYTHONUNBUFFERED\" value=\"1\" />\n      </envs>\n      <option name=\"SDK_HOME\" value=\"\" />\n      <option name=\"WORKING_DIRECTORY\" value=\"$PROJECT_DIR$/Ex_05-06-2024\" />\n      <option name=\"IS_MODULE_SDK\" value=\"true\" />\n      <option name=\"ADD_CONTENT_ROOTS\" value=\"true\" />\n      <option name=\"ADD_SOURCE_ROOTS\" value=\"true\" />\n      <option name=\"SCRIPT_NAME\" value=\"$PROJECT_DIR$/Ex_05-06-2024/LAB_013.py\" />\n      <option name=\"PARAMETERS\" value=\"\" />\n      <option name=\"SHOW_COMMAND_LINE\" value=\"false\" />\n      <option name=\"EMULATE_TERMINAL\" value=\"false\" />\n      <option name=\"MODULE_MODE\" value=\"false\" />\n      <option name=\"REDIRECT_INPUT\" value=\"false\" />\n      <option name=\"INPUT_FILE\" value=\"\" />\n      <method v=\"2\" />\n    </configuration>\n    <configuration name=\"LAB_014\" type=\"PythonConfigurationType\" factoryName=\"Python\" temporary=\"true\" nameIsGenerated=\"true\">\n      <module name=\"pylearning3xATB\" />\n      <option name=\"ENV_FILES\" value=\"\" />\n      <option name=\"INTERPRETER_OPTIONS\" value=\"\" />\n      <option name=\"PARENT_ENVS\" value=\"true\" />\n      <envs>\n        <env name=\"PYTHONUNBUFFERED\" value=\"1\" />\n      </envs>\n      <option name=\"SDK_HOME\" value=\"\" />\n      <option name=\"WORKING_DIRECTORY\" value=\"$PROJECT_DIR$/Ex_07-06-2024\" />\n      <option name=\"IS_MODULE_SDK\" value=\"true\" />\n      <option name=\"ADD_CONTENT_ROOTS\" value=\"true\" />\n      <option name=\"ADD_SOURCE_ROOTS\" value=\"true\" />\n      <option name=\"SCRIPT_NAME\" value=\"$PROJECT_DIR$/Ex_07-06-2024/LAB_014.py\" />\n      <option name=\"PARAMETERS\" value=\"\" />\n      <option name=\"SHOW_COMMAND_LINE\" value=\"false\" />\n      <option name=\"EMULATE_TERMINAL\" value=\"false\" />\n      <option name=\"MODULE_MODE\" value=\"false\" />\n      <option name=\"REDIRECT_INPUT\" value=\"false\" />\n      <option name=\"INPUT_FILE\" value=\"\" />\n      <method v=\"2\" />\n    </configuration>\n    <configuration name=\"Test\" type=\"PythonConfigurationType\" factoryName=\"Python\" temporary=\"true\" nameIsGenerated=\"true\">\n      <module name=\"pylearning3xATB\" />\n      <option name=\"ENV_FILES\" value=\"\" />\n      <option name=\"INTERPRETER_OPTIONS\" value=\"\" />\n      <option name=\"PARENT_ENVS\" value=\"true\" />\n      <envs>\n        <env name=\"PYTHONUNBUFFERED\" value=\"1\" />\n      </envs>\n      <option name=\"SDK_HOME\" value=\"\" />\n      <option name=\"WORKING_DIRECTORY\" value=\"$PROJECT_DIR$/Ex_05-06-2024\" />\n      <option name=\"IS_MODULE_SDK\" value=\"true\" />\n      <option name=\"ADD_CONTENT_ROOTS\" value=\"true\" />\n      <option name=\"ADD_SOURCE_ROOTS\" value=\"true\" />\n      <option name=\"SCRIPT_NAME\" value=\"$PROJECT_DIR$/Ex_05-06-2024/Test.py\" />\n      <option name=\"PARAMETERS\" value=\"\" />\n      <option name=\"SHOW_COMMAND_LINE\" value=\"false\" />\n      <option name=\"EMULATE_TERMINAL\" value=\"false\" />\n      <option name=\"MODULE_MODE\" value=\"false\" />\n      <option name=\"REDIRECT_INPUT\" value=\"false\" />\n      <option name=\"INPUT_FILE\" value=\"\" />\n      <method v=\"2\" />\n    </configuration>\n    <recent_temporary>\n      <list>\n        <item itemvalue=\"Python.LAB_014\" />\n        <item itemvalue=\"Python.LAB_013\" />\n        <item itemvalue=\"Python.LAB_012\" />\n        <item itemvalue=\"Python.LAB_011\" />\n        <item itemvalue=\"Python.Test\" />\n      </list>\n    </recent_temporary>\n  </component>\n  <component name=\"SharedIndexes\">\n    <attachedChunks>\n      <set>\n        <option value=\"bundled-python-sdk-5b207ade9991-746f403e7f0c-com.jetbrains.pycharm.community.sharedIndexes.bundled-PC-241.17890.14\" />\n      </set>\n    </attachedChunks>\n  </component>\n  <component name=\"SpellCheckerSettings\" RuntimeDictionaries=\"0\" Folders=\"0\" CustomDictionaries=\"0\" DefaultDictionary=\"application-level\" UseSingleDictionary=\"true\" transferred=\"true\" />\n  <component name=\"TaskManager\">\n    <task active=\"true\" id=\"Default\" summary=\"Default task\">\n      <changelist id=\"83304dca-33c1-4f3c-bb2d-3bec65755190\" name=\"Changes\" comment=\"\" />\n      <created>1717427664776</created>\n      <option name=\"number\" value=\"Default\" />\n      <option name=\"presentableId\" value=\"Default\" />\n      <updated>1717427664776</updated>\n      <workItem from=\"1717427665818\" duration=\"1776000\" />\n      <workItem from=\"1717552092905\" duration=\"1634000\" />\n      <workItem from=\"1717600348705\" duration=\"11000\" />\n    </task>\n    <task id=\"LOCAL-00001\" summary=\"Adding LAB_001.py file\">\n      <option name=\"closed\" value=\"true\" />\n      <created>1717428775147</created>\n      <option name=\"number\" value=\"00001\" />\n      <option name=\"presentableId\" value=\"LOCAL-00001\" />\n      <option name=\"project\" value=\"LOCAL\" />\n      <updated>1717428775147</updated>\n    </task>\n    <task id=\"LOCAL-00002\" summary=\"Third lecture\">\n      <option name=\"closed\" value=\"true\" />\n      <created>1717679582792</created>\n      <option name=\"number\" value=\"00002\" />\n      <option name=\"presentableId\" value=\"LOCAL-00002\" />\n      <option name=\"project\" value=\"LOCAL\" />\n      <updated>1717679582792</updated>\n    </task>\n    <task id=\"LOCAL-00003\" summary=\"Third lecture - Python variables and data types\">\n      <option name=\"closed\" value=\"true\" />\n      <created>1717680810661</created>\n      <option name=\"number\" value=\"00003\" />\n      <option name=\"presentableId\" value=\"LOCAL-00003\" />\n      <option name=\"project\" value=\"LOCAL\" />\n      <updated>1717680810661</updated>\n    </task>\n    <task id=\"LOCAL-00004\" summary=\"Third lecture - Python variables and data types\">\n      <option name=\"closed\" value=\"true\" />\n      <created>1717680932324</created>\n      <option name=\"number\" value=\"00004\" />\n      <option name=\"presentableId\" value=\"LOCAL-00004\" />\n      <option name=\"project\" value=\"LOCAL\" />\n      <updated>1717680932324</updated>\n    </task>\n    <task id=\"LOCAL-00005\" summary=\"Operators and literals\">\n      <option name=\"closed\" value=\"true\" />\n      <created>1718123144077</created>\n      <option name=\"number\" value=\"00005\" />\n      <option name=\"presentableId\" value=\"LOCAL-00005\" />\n      <option name=\"project\" value=\"LOCAL\" />\n      <updated>1718123144077</updated>\n    </task>\n    <task id=\"LOCAL-00006\" summary=\"Test commit 50\">\n      <option name=\"closed\" value=\"true\" />\n      <created>1718124449653</created>\n      <option name=\"number\" value=\"00006\" />\n      <option name=\"presentableId\" value=\"LOCAL-00006\" />\n      <option name=\"project\" value=\"LOCAL\" />\n      <updated>1718124449653</updated>\n    </task>\n    <task id=\"LOCAL-00007\" summary=\"Commit 1 - June 7\">\n      <option name=\"closed\" value=\"true\" />\n      <created>1718424113023</created>\n      <option name=\"number\" value=\"00007\" />\n      <option name=\"presentableId\" value=\"LOCAL-00007\" />\n      <option name=\"project\" value=\"LOCAL\" />\n      <updated>1718424113023</updated>\n    </task>\n    <task id=\"LOCAL-00008\" summary=\"Commit 2 - June 7\">\n      <option name=\"closed\" value=\"true\" />\n      <created>1718430647054</created>\n      <option name=\"number\" value=\"00008\" />\n      <option name=\"presentableId\" value=\"LOCAL-00008\" />\n      <option name=\"project\" value=\"LOCAL\" />\n      <updated>1718430647054</updated>\n    </task>\n    <option name=\"localTasksCounter\" value=\"9\" />\n    <servers />\n  </component>\n  <component name=\"TypeScriptGeneratedFilesManager\">\n    <option name=\"version\" value=\"3\" />\n  </component>\n  <component name=\"VcsManagerConfiguration\">\n    <MESSAGE value=\"Adding LAB_001.py file\" />\n    <MESSAGE value=\"Third lecture\" />\n    <MESSAGE value=\"Third lecture - Python variables and data types\" />\n    <MESSAGE value=\"Test commit 50\" />\n    <MESSAGE value=\"Commit 1 - June 7\" />\n    <MESSAGE value=\"Operators and literals\" />\n    <MESSAGE value=\"Commit 2 - June 7\" />\n    <option name=\"LAST_COMMIT_MESSAGE\" value=\"Commit 2 - June 7\" />\n  </component>\n  <component name=\"XDebuggerManager\">\n    <breakpoint-manager>\n      <breakpoints>\n        <line-breakpoint enabled=\"true\" suspend=\"THREAD\" type=\"python-line\">\n          <url>file://$PROJECT_DIR$/Ex_07-06-2024/Task 2/Task 2b.py</url>\n          <line>9</line>\n          <option name=\"timeStamp\" value=\"1\" />\n        </line-breakpoint>\n      </breakpoints>\n    </breakpoint-manager>\n  </component>\n  <component name=\"com.intellij.coverage.CoverageDataManagerImpl\">\n    <SUITE FILE_PATH=\"coverage/Pylearning3xATB$LAB_001.coverage\" NAME=\"LAB_001 Coverage Results\" MODIFIED=\"1717428093842\" SOURCE_PROVIDER=\"com.intellij.coverage.DefaultCoverageFileProvider\" RUNNER=\"coverage.py\" COVERAGE_BY_TEST_ENABLED=\"false\" COVERAGE_TRACING_ENABLED=\"false\" WORKING_DIRECTORY=\"$PROJECT_DIR$/Ex-1-03-06-2024\" />\n  </component>\n</project>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/workspace.xml b/.idea/workspace.xml
+--- a/.idea/workspace.xml	(revision 9c88e26292496fb83afe63231c29fd0e8549fc85)
++++ b/.idea/workspace.xml	(date 1718465910248)
+@@ -5,35 +5,20 @@
+   </component>
+   <component name="ChangeListManager">
+     <list default="true" id="83304dca-33c1-4f3c-bb2d-3bec65755190" name="Changes" comment="Operators and literals">
+-      <change afterPath="$PROJECT_DIR$/Copy of all exercises/Ex_07-06-2024/LAB_014.py" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/Copy of all exercises/Ex_07-06-2024/LAB_015.py" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/Copy of all exercises/Ex_07-06-2024/LAB_016.py" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/Copy of all exercises/Ex_07-06-2024/LAB_017.py" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/Copy of all exercises/Ex_07-06-2024/LAB_018.py" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/Copy of all exercises/Ex_07-06-2024/LAB_019.py" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/Copy of all exercises/Ex_07-06-2024/LAB_020.py" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/Copy of all exercises/Ex_07-06-2024/LAB_021.py" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/Copy of all exercises/Ex_07-06-2024/LAB_022.py" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/Copy of all exercises/Ex_07-06-2024/LAB_023.py" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/Copy of all exercises/Ex_07-06-2024/LAB_024.py" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/Copy of all exercises/Ex_07-06-2024/Task 1/Task 1.py" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/Copy of all exercises/Ex_07-06-2024/Task 2/Task 2a.py" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/Copy of all exercises/Ex_07-06-2024/Task 2/Task 2b.py" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/Copy of all exercises/Ex_1-03-06-2024/LAB_001.py" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/Copy of all exercises/Ex_3-05-06-2024/LAB_002.py" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/Copy of all exercises/Ex_3-05-06-2024/LAB_003.py" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/Copy of all exercises/Ex_3-05-06-2024/LAB_004.py" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/Copy of all exercises/Ex_3-05-06-2024/LAB_005.py" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/Copy of all exercises/Ex_3-05-06-2024/LAB_006.py" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/Copy of all exercises/Ex_3-05-06-2024/LAB_007.py" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/Copy of all exercises/Ex_3-05-06-2024/LAB_008.py" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/Copy of all exercises/Ex_3-05-06-2024/LAB_009.py" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/Copy of all exercises/Ex_3-05-06-2024/LAB_010.py" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/Copy of all exercises/Ex_3-05-06-2024/LAB_011.py" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/Copy of all exercises/Ex_3-05-06-2024/LAB_012.py" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/Copy of all exercises/Ex_3-05-06-2024/LAB_013.py" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/Test/TEst.py" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/Ex_10-06-2024/LAB_025.py" beforeDir="false" />
++      <change beforePath="$PROJECT_DIR$/Ex_10-06-2024/LAB_026.py" beforeDir="false" />
++      <change beforePath="$PROJECT_DIR$/Ex_10-06-2024/LAB_027.py" beforeDir="false" />
++      <change beforePath="$PROJECT_DIR$/Ex_10-06-2024/LAB_028.py" beforeDir="false" />
++      <change beforePath="$PROJECT_DIR$/Ex_10-06-2024/LAB_029.py" beforeDir="false" />
++      <change beforePath="$PROJECT_DIR$/Ex_10-06-2024/LAB_030.py" beforeDir="false" />
++      <change beforePath="$PROJECT_DIR$/Ex_10-06-2024/LAB_031.py" beforeDir="false" />
++      <change beforePath="$PROJECT_DIR$/Ex_10-06-2024/LAB_032.py" beforeDir="false" />
++      <change beforePath="$PROJECT_DIR$/Ex_10-06-2024/LAB_033.py" beforeDir="false" />
++      <change beforePath="$PROJECT_DIR$/Ex_10-06-2024/LAB_034.py" beforeDir="false" />
++      <change beforePath="$PROJECT_DIR$/Ex_10-06-2024/LAB_035.py" beforeDir="false" />
++      <change beforePath="$PROJECT_DIR$/Ex_10-06-2024/LAB_036.py" beforeDir="false" />
++      <change beforePath="$PROJECT_DIR$/Ex_10-06-2024/LAB_037.py" beforeDir="false" />
++      <change beforePath="$PROJECT_DIR$/Ex_10-06-2024/Task 3/Task3.py" beforeDir="false" />
+     </list>
+     <option name="SHOW_DIALOG" value="false" />
+     <option name="HIGHLIGHT_CONFLICTS" value="true" />
+@@ -65,6 +50,7 @@
+   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+   <component name="ProjectViewState">
+     <option name="hideEmptyMiddlePackages" value="true" />
++    <option name="openDirectoriesWithSingleClick" value="true" />
+     <option name="showLibraryContents" value="true" />
+   </component>
+   <component name="PropertiesComponent">{
+@@ -118,6 +104,7 @@
+ }</component>
+   <component name="RecentsManager">
+     <key name="CopyFile.RECENT_KEYS">
++      <recent name="$PROJECT_DIR$/Copies" />
+       <recent name="$PROJECT_DIR$/Copy of all exercises" />
+     </key>
+     <key name="MoveFile.RECENT_KEYS">
+@@ -352,7 +339,15 @@
+       <option name="project" value="LOCAL" />
+       <updated>1718430647054</updated>
+     </task>
+-    <option name="localTasksCounter" value="9" />
++    <task id="LOCAL-00009" summary="Operators and literals">
++      <option name="closed" value="true" />
++      <created>1718465809608</created>
++      <option name="number" value="00009" />
++      <option name="presentableId" value="LOCAL-00009" />
++      <option name="project" value="LOCAL" />
++      <updated>1718465809608</updated>
++    </task>
++    <option name="localTasksCounter" value="10" />
+     <servers />
+   </component>
+   <component name="TypeScriptGeneratedFilesManager">
+@@ -364,9 +359,9 @@
+     <MESSAGE value="Third lecture - Python variables and data types" />
+     <MESSAGE value="Test commit 50" />
+     <MESSAGE value="Commit 1 - June 7" />
+-    <MESSAGE value="Operators and literals" />
+     <MESSAGE value="Commit 2 - June 7" />
+-    <option name="LAST_COMMIT_MESSAGE" value="Commit 2 - June 7" />
++    <MESSAGE value="Operators and literals" />
++    <option name="LAST_COMMIT_MESSAGE" value="Operators and literals" />
+   </component>
+   <component name="XDebuggerManager">
+     <breakpoint-manager>
+Index: Ex_June/Ex_12-06-2024/LAB_044.py
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/Ex_June/Ex_12-06-2024/LAB_044.py b/Ex_June/Ex_12-06-2024/LAB_044.py
+new file mode 100644
+--- /dev/null	(date 1718465844025)
++++ b/Ex_June/Ex_12-06-2024/LAB_044.py	(date 1718465844025)
+@@ -0,0 +1,8 @@
++# for i in range(1, 11):
++    # print("Hello ->", i)
++
++# range = 190
++# print(range)
++
++x = list(range(1,10,2))
++print(x)
+\ No newline at end of file
+Index: Ex_June/Ex_12-06-2024/LAB_045.py
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/Ex_June/Ex_12-06-2024/LAB_045.py b/Ex_June/Ex_12-06-2024/LAB_045.py
+new file mode 100644
+--- /dev/null	(date 1718465844025)
++++ b/Ex_June/Ex_12-06-2024/LAB_045.py	(date 1718465844025)
+@@ -0,0 +1,12 @@
++# while
++i = 0
++while (i < 5):
++    print(i)
++    i = i + 1
++
++# i = 0 , 0 < 5 -> 0
++# i = 1 , 1 < 5 -> 1
++# i = 2 , 2 < 5 -> 2
++# i = 3 , 3 < 5 -> 3
++# i = 4 , 4 < 5 -> 4
++# i = 5 , 5 < 5 -> Out of the loop
+\ No newline at end of file
+Index: Ex_June/Ex_12-06-2024/LAB_046.py
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/Ex_June/Ex_12-06-2024/LAB_046.py b/Ex_June/Ex_12-06-2024/LAB_046.py
+new file mode 100644
+--- /dev/null	(date 1718465844025)
++++ b/Ex_June/Ex_12-06-2024/LAB_046.py	(date 1718465844025)
+@@ -0,0 +1,51 @@
++# Write a program that calculates and displays the letter grade for a
++# given numerical score (e.g., A, B, C, D, or F)
++# based on the following grading scale:
++# input- score - 89
++# output- B
++# A: 90-100
++# B: 80-89
++# C: 70-79
++# D: 60-69
++# F: 0-59
++
++# Multiple condition - if, elif, else
++
++# Step 1# Logic Building
++# Input ?
++# score ->  int
++score = int(input("Enter the score: "))
++# output - String -> A,B,C,D,F - st
++
++
++# Step 2
++# Write the rough logic and convert to real one
++
++# score >=90 and score <=100 -> A
++# score >=80 and score <=89 -> B
++# score >=70 and score <=79 -> C
++# score >=60 and score <=69 -> D
++# score >=0 and score <=59 -> F
++
++if score >= 90 and score <= 100:
++    print("Grade is A")
++elif score >=80 and score <=89:
++    print("Grade is B")
++elif score >=70 and score <=79:
++    print("Grade is C")
++elif score >=60 and score <=69:
++    print("Grade is D")
++elif  score >=0 and score <=59:
++    print("Grade is F")
++else:
++    print("Invalid score")
++
++
++# For
++# While
++# If else
++# If elif else
++
++
++
++
+Index: Ex_June/Ex_12-06-2024/LAB_047.py
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/Ex_June/Ex_12-06-2024/LAB_047.py b/Ex_June/Ex_12-06-2024/LAB_047.py
+new file mode 100644
+--- /dev/null	(date 1718465844026)
++++ b/Ex_June/Ex_12-06-2024/LAB_047.py	(date 1718465844026)
+@@ -0,0 +1,12 @@
++age = 30
++name = "Jyoti"
++
++if (name == "Jyoti"):
++    if (age == 30):
++        print("Allowed")
++
++    else:
++        print("Not Allowed!, wrong age")
++
++else:
++    print("Wrong Name")
+Index: Ex_June/Ex_12-06-2024/LAB_048.py
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/Ex_June/Ex_12-06-2024/LAB_048.py b/Ex_June/Ex_12-06-2024/LAB_048.py
+new file mode 100644
+--- /dev/null	(date 1718465844026)
++++ b/Ex_June/Ex_12-06-2024/LAB_048.py	(date 1718465844026)
+@@ -0,0 +1,6 @@
++age = 90
++
++if age > 100:
++    print("You are old")
++else:
++    print("You are young")
