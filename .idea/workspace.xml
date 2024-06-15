@@ -32,21 +32,7 @@
       <change afterPath="$PROJECT_DIR$/Copy of all exercises/Ex_3-05-06-2024/LAB_011.py" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/Copy of all exercises/Ex_3-05-06-2024/LAB_012.py" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/Copy of all exercises/Ex_3-05-06-2024/LAB_013.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Ex_07-06-2024/LAB_015.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Ex_07-06-2024/LAB_016.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Ex_07-06-2024/LAB_017.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Ex_07-06-2024/LAB_018.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Ex_07-06-2024/LAB_019.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Ex_07-06-2024/LAB_020.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Ex_07-06-2024/LAB_021.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Ex_07-06-2024/LAB_022.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Ex_07-06-2024/LAB_023.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Ex_07-06-2024/LAB_024.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Ex_07-06-2024/Task 1/Task 1.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Ex_07-06-2024/Task 2/Task 2a.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Ex_07-06-2024/Task 2/Task 2b.py" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/Test/TEst.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -81,55 +67,55 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Python.LAB_001.executor": "Run",
-    "Python.LAB_002.executor": "Run",
-    "Python.LAB_003.executor": "Run",
-    "Python.LAB_004.executor": "Run",
-    "Python.LAB_005.executor": "Run",
-    "Python.LAB_006.executor": "Run",
-    "Python.LAB_007.executor": "Run",
-    "Python.LAB_008a.executor": "Run",
-    "Python.LAB_009.executor": "Run",
-    "Python.LAB_011.executor": "Run",
-    "Python.LAB_012.executor": "Run",
-    "Python.LAB_013.executor": "Run",
-    "Python.LAB_014.executor": "Run",
-    "Python.LAB_015.executor": "Run",
-    "Python.LAB_017.executor": "Run",
-    "Python.LAB_018.executor": "Run",
-    "Python.LAB_019.executor": "Run",
-    "Python.LAB_020.executor": "Run",
-    "Python.LAB_021.executor": "Run",
-    "Python.LAB_022.executor": "Run",
-    "Python.LAB_023.executor": "Run",
-    "Python.LAB_024.executor": "Run",
-    "Python.TEst.executor": "Run",
-    "Python.Task 1.executor": "Run",
-    "Python.Task 2a.executor": "Run",
-    "Python.Task 2b.executor": "Run",
-    "Python.Test.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "main",
-    "last_opened_file_path": "/Users/jyotiparmar/PycharmProjects/pylearning3xATB/Copy of all exercises",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "project.propVCSSupport.CommitDialog",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Python.LAB_001.executor&quot;: &quot;Run&quot;,
+    &quot;Python.LAB_002.executor&quot;: &quot;Run&quot;,
+    &quot;Python.LAB_003.executor&quot;: &quot;Run&quot;,
+    &quot;Python.LAB_004.executor&quot;: &quot;Run&quot;,
+    &quot;Python.LAB_005.executor&quot;: &quot;Run&quot;,
+    &quot;Python.LAB_006.executor&quot;: &quot;Run&quot;,
+    &quot;Python.LAB_007.executor&quot;: &quot;Run&quot;,
+    &quot;Python.LAB_008a.executor&quot;: &quot;Run&quot;,
+    &quot;Python.LAB_009.executor&quot;: &quot;Run&quot;,
+    &quot;Python.LAB_011.executor&quot;: &quot;Run&quot;,
+    &quot;Python.LAB_012.executor&quot;: &quot;Run&quot;,
+    &quot;Python.LAB_013.executor&quot;: &quot;Run&quot;,
+    &quot;Python.LAB_014.executor&quot;: &quot;Run&quot;,
+    &quot;Python.LAB_015.executor&quot;: &quot;Run&quot;,
+    &quot;Python.LAB_017.executor&quot;: &quot;Run&quot;,
+    &quot;Python.LAB_018.executor&quot;: &quot;Run&quot;,
+    &quot;Python.LAB_019.executor&quot;: &quot;Run&quot;,
+    &quot;Python.LAB_020.executor&quot;: &quot;Run&quot;,
+    &quot;Python.LAB_021.executor&quot;: &quot;Run&quot;,
+    &quot;Python.LAB_022.executor&quot;: &quot;Run&quot;,
+    &quot;Python.LAB_023.executor&quot;: &quot;Run&quot;,
+    &quot;Python.LAB_024.executor&quot;: &quot;Run&quot;,
+    &quot;Python.TEst.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Task 1.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Task 2a.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Task 2b.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Test.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/jyotiparmar/PycharmProjects/pylearning3xATB/Copy of all exercises&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;project.propVCSSupport.CommitDialog&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   },
-  "keyToStringList": {
-    "GitStage.ChangesTree.GroupingKeys": [
-      "directory",
-      "module",
-      "repository"
+  &quot;keyToStringList&quot;: {
+    &quot;GitStage.ChangesTree.GroupingKeys&quot;: [
+      &quot;directory&quot;,
+      &quot;module&quot;,
+      &quot;repository&quot;
     ]
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/Copy of all exercises" />
@@ -140,7 +126,7 @@
       <recent name="$PROJECT_DIR$/Ex_5" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Python.LAB_014">
     <configuration name="LAB_002" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
       <module name="pylearning3xATB" />
       <option name="ENV_FILES" value="" />
@@ -358,7 +344,15 @@
       <option name="project" value="LOCAL" />
       <updated>1718424113023</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Commit 2 - June 7">
+      <option name="closed" value="true" />
+      <created>1718430647054</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1718430647054</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -369,9 +363,10 @@
     <MESSAGE value="Third lecture" />
     <MESSAGE value="Third lecture - Python variables and data types" />
     <MESSAGE value="Test commit 50" />
-    <MESSAGE value="Operators and literals" />
     <MESSAGE value="Commit 1 - June 7" />
-    <option name="LAST_COMMIT_MESSAGE" value="Commit 1 - June 7" />
+    <MESSAGE value="Operators and literals" />
+    <MESSAGE value="Commit 2 - June 7" />
+    <option name="LAST_COMMIT_MESSAGE" value="Commit 2 - June 7" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
