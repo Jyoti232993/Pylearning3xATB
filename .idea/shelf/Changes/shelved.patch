@@ -1,0 +1,521 @@
+Index: EX_4 07-06-2024/LAB_016.py
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/EX_4 07-06-2024/LAB_016.py b/EX_4 07-06-2024/LAB_016.py
+--- a/EX_4 07-06-2024/LAB_016.py	(revision cfe895fe1c84dc924349a7ebfda77038aedf1de9)
++++ b/EX_4 07-06-2024/LAB_016.py	(date 1718040745593)
+@@ -1,0 +1,18 @@
++# Take the 2 int number from the user and we want to add them.
++# We need to use the input() function.
++
++num_1 = int(input("Enter the first number: "))
++num_2 = int(input("Enter the second number:"))
++
++# type conversion - str -> int -> ? int()
++result = num_1 + num_2
++print(result)
++
++#  + ->  int  sum operation
++#  + -> str - concat
++# int to str -> str()
++# str to int -> int()
++
++print(type(num_1))
++print(type(num_2))
++
+Index: EX_4 07-06-2024/LAB_017.py
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/EX_4 07-06-2024/LAB_017.py b/EX_4 07-06-2024/LAB_017.py
+--- a/EX_4 07-06-2024/LAB_017.py	(revision cfe895fe1c84dc924349a7ebfda77038aedf1de9)
++++ b/EX_4 07-06-2024/LAB_017.py	(date 1718040745593)
+@@ -1,0 +1,10 @@
++pi = 3.14
++print(pi)
++print(type(pi))
++
++i = 10
++i2 = 12
++result = i2/i
++print(result) # Python is very smart, it knows that 12/10 is a float
++print(type(result))
++
+Index: EX_4 07-06-2024/LAB_018.py
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/EX_4 07-06-2024/LAB_018.py b/EX_4 07-06-2024/LAB_018.py
+--- a/EX_4 07-06-2024/LAB_018.py	(revision cfe895fe1c84dc924349a7ebfda77038aedf1de9)
++++ b/EX_4 07-06-2024/LAB_018.py	(date 1718040745598)
+@@ -1,0 +1,28 @@
++# Strings
++# Bunch of Char
++# '', "" , """
++
++name = 'Hary'
++print(name)
++
++name = "Harry"
++print(name)
++
++name = """Harry , Is is Good person He love to walk alone, He has a dog"""
++print(name)
++
++# Raw String
++dir = r'C:\nomedir\some dir'
++print(dir)
++
++# Format of the String
++first_name = 'Harry'
++last_name = 'Potter'
++
++print(first_name + " " + last_name)
++print(first_name, last_name)
++# f -> formatting - it will replace the values of the variables
++#{} -> placeholders
++print(f'Your full name is {first_name} {last_name}')
++
++
+Index: EX_4 07-06-2024/LAB_019.py
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/EX_4 07-06-2024/LAB_019.py b/EX_4 07-06-2024/LAB_019.py
+--- a/EX_4 07-06-2024/LAB_019.py	(revision cfe895fe1c84dc924349a7ebfda77038aedf1de9)
++++ b/EX_4 07-06-2024/LAB_019.py	(date 1718040745612)
+@@ -1,0 +1,22 @@
++# Format String
++print(2 * 1)
++num = 90
++print(f"The number is {num* 2}")
++print(f"The number is {num * 3}")
++
++num =5
++print(f"{num} * 1 = {num}")
++print(f"{num} * 2 = {num*2}")
++print(f"{num} * 3 = {num*3}")
++print(f"{num} * 4 = {num*4}")
++print(f"{num} * 5 = {num*5}")
++print(f"{num} * 6 = {num*6}")
++print(f"{num} * 7 = {num*7}")
++print(f"{num} * 8 = {num*8}")
++print(f"{num} * 9 = {num*9}")
++print(f"{num} * 10 = {num*10}")
++
++b = 1
++print(f"{b}*1 = {b}")
++print("2x{}={},{}".format(b, b * 2, 3))
++# This is just use to showcase the output.
+\ No newline at end of file
+Index: EX_4 07-06-2024/LAB_020.py
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/EX_4 07-06-2024/LAB_020.py b/EX_4 07-06-2024/LAB_020.py
+--- a/EX_4 07-06-2024/LAB_020.py	(revision cfe895fe1c84dc924349a7ebfda77038aedf1de9)
++++ b/EX_4 07-06-2024/LAB_020.py	(date 1718040745600)
+@@ -1,0 +1,25 @@
++# In built Functions -
++# Function -> Repeat a task - You can use a function.
++# print(),input, type(), format(), max, min, id(), sum(), avg()
++
++# Strings
++name = 'Amit' # 0 to 3
++# 0,1,2,3
++# A,m,i,t
++print(name)
++print(type((name)))
++print(id(name)) # id -> memory address where it is stored 4309895152
++print(len(name))
++# length of string starts from (1)
++
++name = name.upper()
++print(name)
++name = name.lower()
++print(name)
++
++a= name.count('A')
++print(a)
++#print(name[4]) # string index out of range
++
++# Python - Immutable - that can't be changed
++#name[0] = "P" # 'str' object does not support item assignment
+\ No newline at end of file
+Index: EX_4 07-06-2024/LAB_021.py
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/EX_4 07-06-2024/LAB_021.py b/EX_4 07-06-2024/LAB_021.py
+--- a/EX_4 07-06-2024/LAB_021.py	(revision cfe895fe1c84dc924349a7ebfda77038aedf1de9)
++++ b/EX_4 07-06-2024/LAB_021.py	(date 1718040745611)
+@@ -1,0 +1,8 @@
++name = "This is a Big line"
++print(len(name))
++print(type(name))
++print(name[14])
++print(name[-1])
++print(name[-2])
++print(name[-10])
++
+Index: EX_4 07-06-2024/LAB_022.py
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/EX_4 07-06-2024/LAB_022.py b/EX_4 07-06-2024/LAB_022.py
+--- a/EX_4 07-06-2024/LAB_022.py	(revision cfe895fe1c84dc924349a7ebfda77038aedf1de9)
++++ b/EX_4 07-06-2024/LAB_022.py	(date 1718040745596)
+@@ -1,0 +1,20 @@
++val = None
++#val = val+1 # unsupported operand type(s) for +: 'NoneType' and 'int'
++# Data Type  - NoneType
++print(val)
++# Nothing
++# None is not a default value
++# None is not 0.
++# None is not an empty string.
++# None is not the same as False.
++
++name = "" # empty String - memory allocated
++print(id(name))
++
++name = None
++print(type(name))
++print(id(name))
++
++name = "Amit"
++print(name)
++print(id(name))
+Index: EX_4 07-06-2024/LAB_023.py
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/EX_4 07-06-2024/LAB_023.py b/EX_4 07-06-2024/LAB_023.py
+--- a/EX_4 07-06-2024/LAB_023.py	(revision cfe895fe1c84dc924349a7ebfda77038aedf1de9)
++++ b/EX_4 07-06-2024/LAB_023.py	(date 1718040745600)
+@@ -1,0 +1,42 @@
++# List - Shopping List
++# milk, bread, butter, poha
++# 1. Add item
++# 2. Remove item
++# 3. Update item
++# 4. View item
++# 5. Exit
++
++shopping_list = ["milk", "bread", "butter", "poha"]
++print(shopping_list)
++print(len(shopping_list))
++print(shopping_list[0])
++print(shopping_list[-1])
++
++shopping_list.append("curd") # Add item in the end
++print(shopping_list)
++
++
++shopping_list.insert(3, "jam") # Add item at index 3
++print(shopping_list)
++
++shopping_list.extend(["chips", "salt"]) # Add multiple items in the end
++print(shopping_list)
++
++shopping_list.remove("bread") # Remove item
++print(shopping_list)
++
++print(shopping_list.pop()) #removes and prints the last item from the list
++
++print(shopping_list.index("butter"))
++
++shopping_list.reverse()
++print(shopping_list)
++
++shopping_list.sort()
++print(shopping_list)
++
++shopping_list[0] = "Jyoti"
++print(shopping_list)
++
++my_list = [1, 2, 3, 4, True, 3.14, "Pramod"]
++print(type(my_list))  # <class 'list'>
+Index: EX_4 07-06-2024/LAB_024.py
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/EX_4 07-06-2024/LAB_024.py b/EX_4 07-06-2024/LAB_024.py
+--- a/EX_4 07-06-2024/LAB_024.py	(revision cfe895fe1c84dc924349a7ebfda77038aedf1de9)
++++ b/EX_4 07-06-2024/LAB_024.py	(date 1718040745602)
+@@ -1,0 +1,5 @@
++# Escape Seq
++print("Hello \"World\"")
++print("Hello \nWorld")
++print("Hello \t World")
++print("Hello \bWorld")
+\ No newline at end of file
+Index: EX_4 07-06-2024/LAB_014.py
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/EX_4 07-06-2024/LAB_014.py b/EX_4 07-06-2024/LAB_014.py
+--- a/EX_4 07-06-2024/LAB_014.py	(revision cfe895fe1c84dc924349a7ebfda77038aedf1de9)
++++ b/EX_4 07-06-2024/LAB_014.py	(date 1718040745605)
+@@ -1,0 +1,28 @@
++print("Hello World")
++# Commment
++# Varaible
++# Data Types in Python
++# int, str, float, complex, bool
++
++# int
++a = 10
++print(a)
++
++#str
++b = "Hello"
++print(b)
++
++#float
++c = 10.5
++print(c)
++
++#complex
++d = 10+5j
++print(d)
++
++#bool
++e = True
++print(e)
++
++print(type(a))
++
+Index: .idea/workspace.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<project version=\"4\">\n  <component name=\"AutoImportSettings\">\n    <option name=\"autoReloadType\" value=\"SELECTIVE\" />\n  </component>\n  <component name=\"ChangeListManager\">\n    <list default=\"true\" id=\"83304dca-33c1-4f3c-bb2d-3bec65755190\" name=\"Changes\" comment=\"Third lecture\">\n      <change beforePath=\"$PROJECT_DIR$/.idea/workspace.xml\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/.idea/workspace.xml\" afterDir=\"false\" />\n    </list>\n    <option name=\"SHOW_DIALOG\" value=\"false\" />\n    <option name=\"HIGHLIGHT_CONFLICTS\" value=\"true\" />\n    <option name=\"HIGHLIGHT_NON_ACTIVE_CHANGELIST\" value=\"false\" />\n    <option name=\"LAST_RESOLUTION\" value=\"IGNORE\" />\n  </component>\n  <component name=\"FileTemplateManagerImpl\">\n    <option name=\"RECENT_TEMPLATES\">\n      <list>\n        <option value=\"Python Script\" />\n      </list>\n    </option>\n  </component>\n  <component name=\"Git.Settings\">\n    <option name=\"RECENT_GIT_ROOT_PATH\" value=\"$PROJECT_DIR$\" />\n  </component>\n  <component name=\"ProjectColorInfo\">{\n  &quot;associatedIndex&quot;: 8\n}</component>\n  <component name=\"ProjectId\" id=\"2hNHYnoDEE51vNnLDfoRDfciz5O\" />\n  <component name=\"ProjectLevelVcsManager\" settingsEditedManually=\"true\" />\n  <component name=\"ProjectViewState\">\n    <option name=\"hideEmptyMiddlePackages\" value=\"true\" />\n    <option name=\"showLibraryContents\" value=\"true\" />\n  </component>\n  <component name=\"PropertiesComponent\">{\n  &quot;keyToString&quot;: {\n    &quot;Python.LAB_001.executor&quot;: &quot;Run&quot;,\n    &quot;Python.LAB_002.executor&quot;: &quot;Run&quot;,\n    &quot;Python.LAB_003.executor&quot;: &quot;Run&quot;,\n    &quot;Python.LAB_004.executor&quot;: &quot;Run&quot;,\n    &quot;Python.LAB_005.executor&quot;: &quot;Run&quot;,\n    &quot;Python.LAB_006.executor&quot;: &quot;Run&quot;,\n    &quot;Python.LAB_007.executor&quot;: &quot;Run&quot;,\n    &quot;Python.LAB_008a.executor&quot;: &quot;Run&quot;,\n    &quot;Python.LAB_009.executor&quot;: &quot;Run&quot;,\n    &quot;Python.LAB_011.executor&quot;: &quot;Run&quot;,\n    &quot;Python.LAB_012.executor&quot;: &quot;Run&quot;,\n    &quot;Python.LAB_013.executor&quot;: &quot;Run&quot;,\n    &quot;Python.Test.executor&quot;: &quot;Run&quot;,\n    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,\n    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,\n    &quot;git-widget-placeholder&quot;: &quot;main&quot;,\n    &quot;last_opened_file_path&quot;: &quot;/Users/jyotiparmar/PycharmProjects/pylearning3xATB&quot;,\n    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,\n    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,\n    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,\n    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,\n    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,\n    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,\n    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;\n  },\n  &quot;keyToStringList&quot;: {\n    &quot;GitStage.ChangesTree.GroupingKeys&quot;: [\n      &quot;directory&quot;,\n      &quot;module&quot;,\n      &quot;repository&quot;\n    ]\n  }\n}</component>\n  <component name=\"RunManager\" selected=\"Python.LAB_013\">\n    <configuration name=\"LAB_002\" type=\"PythonConfigurationType\" factoryName=\"Python\" nameIsGenerated=\"true\">\n      <module name=\"pylearning3xATB\" />\n      <option name=\"ENV_FILES\" value=\"\" />\n      <option name=\"INTERPRETER_OPTIONS\" value=\"\" />\n      <option name=\"PARENT_ENVS\" value=\"true\" />\n      <envs>\n        <env name=\"PYTHONUNBUFFERED\" value=\"1\" />\n      </envs>\n      <option name=\"SDK_HOME\" value=\"\" />\n      <option name=\"WORKING_DIRECTORY\" value=\"$PROJECT_DIR$/Ex_05-06-2024\" />\n      <option name=\"IS_MODULE_SDK\" value=\"true\" />\n      <option name=\"ADD_CONTENT_ROOTS\" value=\"true\" />\n      <option name=\"ADD_SOURCE_ROOTS\" value=\"true\" />\n      <option name=\"SCRIPT_NAME\" value=\"$PROJECT_DIR$/Ex_05-06-2024/LAB_002.py\" />\n      <option name=\"PARAMETERS\" value=\"\" />\n      <option name=\"SHOW_COMMAND_LINE\" value=\"false\" />\n      <option name=\"EMULATE_TERMINAL\" value=\"true\" />\n      <option name=\"MODULE_MODE\" value=\"false\" />\n      <option name=\"REDIRECT_INPUT\" value=\"false\" />\n      <option name=\"INPUT_FILE\" value=\"\" />\n      <method v=\"2\" />\n    </configuration>\n    <configuration name=\"LAB_009\" type=\"PythonConfigurationType\" factoryName=\"Python\" temporary=\"true\" nameIsGenerated=\"true\">\n      <module name=\"pylearning3xATB\" />\n      <option name=\"ENV_FILES\" value=\"\" />\n      <option name=\"INTERPRETER_OPTIONS\" value=\"\" />\n      <option name=\"PARENT_ENVS\" value=\"true\" />\n      <envs>\n        <env name=\"PYTHONUNBUFFERED\" value=\"1\" />\n      </envs>\n      <option name=\"SDK_HOME\" value=\"\" />\n      <option name=\"WORKING_DIRECTORY\" value=\"$PROJECT_DIR$/Ex_05-06-2024\" />\n      <option name=\"IS_MODULE_SDK\" value=\"true\" />\n      <option name=\"ADD_CONTENT_ROOTS\" value=\"true\" />\n      <option name=\"ADD_SOURCE_ROOTS\" value=\"true\" />\n      <option name=\"SCRIPT_NAME\" value=\"$PROJECT_DIR$/Ex_05-06-2024/LAB_009.py\" />\n      <option name=\"PARAMETERS\" value=\"\" />\n      <option name=\"SHOW_COMMAND_LINE\" value=\"false\" />\n      <option name=\"EMULATE_TERMINAL\" value=\"false\" />\n      <option name=\"MODULE_MODE\" value=\"false\" />\n      <option name=\"REDIRECT_INPUT\" value=\"false\" />\n      <option name=\"INPUT_FILE\" value=\"\" />\n      <method v=\"2\" />\n    </configuration>\n    <configuration name=\"LAB_011\" type=\"PythonConfigurationType\" factoryName=\"Python\" temporary=\"true\" nameIsGenerated=\"true\">\n      <module name=\"pylearning3xATB\" />\n      <option name=\"ENV_FILES\" value=\"\" />\n      <option name=\"INTERPRETER_OPTIONS\" value=\"\" />\n      <option name=\"PARENT_ENVS\" value=\"true\" />\n      <envs>\n        <env name=\"PYTHONUNBUFFERED\" value=\"1\" />\n      </envs>\n      <option name=\"SDK_HOME\" value=\"\" />\n      <option name=\"WORKING_DIRECTORY\" value=\"$PROJECT_DIR$/Ex_05-06-2024\" />\n      <option name=\"IS_MODULE_SDK\" value=\"true\" />\n      <option name=\"ADD_CONTENT_ROOTS\" value=\"true\" />\n      <option name=\"ADD_SOURCE_ROOTS\" value=\"true\" />\n      <option name=\"SCRIPT_NAME\" value=\"$PROJECT_DIR$/Ex_05-06-2024/LAB_011.py\" />\n      <option name=\"PARAMETERS\" value=\"\" />\n      <option name=\"SHOW_COMMAND_LINE\" value=\"false\" />\n      <option name=\"EMULATE_TERMINAL\" value=\"false\" />\n      <option name=\"MODULE_MODE\" value=\"false\" />\n      <option name=\"REDIRECT_INPUT\" value=\"false\" />\n      <option name=\"INPUT_FILE\" value=\"\" />\n      <method v=\"2\" />\n    </configuration>\n    <configuration name=\"LAB_012\" type=\"PythonConfigurationType\" factoryName=\"Python\" temporary=\"true\" nameIsGenerated=\"true\">\n      <module name=\"pylearning3xATB\" />\n      <option name=\"ENV_FILES\" value=\"\" />\n      <option name=\"INTERPRETER_OPTIONS\" value=\"\" />\n      <option name=\"PARENT_ENVS\" value=\"true\" />\n      <envs>\n        <env name=\"PYTHONUNBUFFERED\" value=\"1\" />\n      </envs>\n      <option name=\"SDK_HOME\" value=\"\" />\n      <option name=\"WORKING_DIRECTORY\" value=\"$PROJECT_DIR$/Ex_05-06-2024\" />\n      <option name=\"IS_MODULE_SDK\" value=\"true\" />\n      <option name=\"ADD_CONTENT_ROOTS\" value=\"true\" />\n      <option name=\"ADD_SOURCE_ROOTS\" value=\"true\" />\n      <option name=\"SCRIPT_NAME\" value=\"$PROJECT_DIR$/Ex_05-06-2024/LAB_012.py\" />\n      <option name=\"PARAMETERS\" value=\"\" />\n      <option name=\"SHOW_COMMAND_LINE\" value=\"false\" />\n      <option name=\"EMULATE_TERMINAL\" value=\"false\" />\n      <option name=\"MODULE_MODE\" value=\"false\" />\n      <option name=\"REDIRECT_INPUT\" value=\"false\" />\n      <option name=\"INPUT_FILE\" value=\"\" />\n      <method v=\"2\" />\n    </configuration>\n    <configuration name=\"LAB_013\" type=\"PythonConfigurationType\" factoryName=\"Python\" temporary=\"true\" nameIsGenerated=\"true\">\n      <module name=\"pylearning3xATB\" />\n      <option name=\"ENV_FILES\" value=\"\" />\n      <option name=\"INTERPRETER_OPTIONS\" value=\"\" />\n      <option name=\"PARENT_ENVS\" value=\"true\" />\n      <envs>\n        <env name=\"PYTHONUNBUFFERED\" value=\"1\" />\n      </envs>\n      <option name=\"SDK_HOME\" value=\"\" />\n      <option name=\"WORKING_DIRECTORY\" value=\"$PROJECT_DIR$/Ex_05-06-2024\" />\n      <option name=\"IS_MODULE_SDK\" value=\"true\" />\n      <option name=\"ADD_CONTENT_ROOTS\" value=\"true\" />\n      <option name=\"ADD_SOURCE_ROOTS\" value=\"true\" />\n      <option name=\"SCRIPT_NAME\" value=\"$PROJECT_DIR$/Ex_05-06-2024/LAB_013.py\" />\n      <option name=\"PARAMETERS\" value=\"\" />\n      <option name=\"SHOW_COMMAND_LINE\" value=\"false\" />\n      <option name=\"EMULATE_TERMINAL\" value=\"false\" />\n      <option name=\"MODULE_MODE\" value=\"false\" />\n      <option name=\"REDIRECT_INPUT\" value=\"false\" />\n      <option name=\"INPUT_FILE\" value=\"\" />\n      <method v=\"2\" />\n    </configuration>\n    <configuration name=\"Test\" type=\"PythonConfigurationType\" factoryName=\"Python\" temporary=\"true\" nameIsGenerated=\"true\">\n      <module name=\"pylearning3xATB\" />\n      <option name=\"ENV_FILES\" value=\"\" />\n      <option name=\"INTERPRETER_OPTIONS\" value=\"\" />\n      <option name=\"PARENT_ENVS\" value=\"true\" />\n      <envs>\n        <env name=\"PYTHONUNBUFFERED\" value=\"1\" />\n      </envs>\n      <option name=\"SDK_HOME\" value=\"\" />\n      <option name=\"WORKING_DIRECTORY\" value=\"$PROJECT_DIR$/Ex_05-06-2024\" />\n      <option name=\"IS_MODULE_SDK\" value=\"true\" />\n      <option name=\"ADD_CONTENT_ROOTS\" value=\"true\" />\n      <option name=\"ADD_SOURCE_ROOTS\" value=\"true\" />\n      <option name=\"SCRIPT_NAME\" value=\"$PROJECT_DIR$/Ex_05-06-2024/Test.py\" />\n      <option name=\"PARAMETERS\" value=\"\" />\n      <option name=\"SHOW_COMMAND_LINE\" value=\"false\" />\n      <option name=\"EMULATE_TERMINAL\" value=\"false\" />\n      <option name=\"MODULE_MODE\" value=\"false\" />\n      <option name=\"REDIRECT_INPUT\" value=\"false\" />\n      <option name=\"INPUT_FILE\" value=\"\" />\n      <method v=\"2\" />\n    </configuration>\n    <recent_temporary>\n      <list>\n        <item itemvalue=\"Python.LAB_013\" />\n        <item itemvalue=\"Python.LAB_012\" />\n        <item itemvalue=\"Python.LAB_011\" />\n        <item itemvalue=\"Python.Test\" />\n        <item itemvalue=\"Python.LAB_009\" />\n      </list>\n    </recent_temporary>\n  </component>\n  <component name=\"SharedIndexes\">\n    <attachedChunks>\n      <set>\n        <option value=\"bundled-python-sdk-48aec45f0201-746f403e7f0c-com.jetbrains.pycharm.community.sharedIndexes.bundled-PC-241.17011.127\" />\n      </set>\n    </attachedChunks>\n  </component>\n  <component name=\"SpellCheckerSettings\" RuntimeDictionaries=\"0\" Folders=\"0\" CustomDictionaries=\"0\" DefaultDictionary=\"application-level\" UseSingleDictionary=\"true\" transferred=\"true\" />\n  <component name=\"TaskManager\">\n    <task active=\"true\" id=\"Default\" summary=\"Default task\">\n      <changelist id=\"83304dca-33c1-4f3c-bb2d-3bec65755190\" name=\"Changes\" comment=\"\" />\n      <created>1717427664776</created>\n      <option name=\"number\" value=\"Default\" />\n      <option name=\"presentableId\" value=\"Default\" />\n      <updated>1717427664776</updated>\n      <workItem from=\"1717427665818\" duration=\"1776000\" />\n      <workItem from=\"1717552092905\" duration=\"1634000\" />\n      <workItem from=\"1717600348705\" duration=\"11000\" />\n    </task>\n    <task id=\"LOCAL-00001\" summary=\"Adding LAB_001.py file\">\n      <option name=\"closed\" value=\"true\" />\n      <created>1717428775147</created>\n      <option name=\"number\" value=\"00001\" />\n      <option name=\"presentableId\" value=\"LOCAL-00001\" />\n      <option name=\"project\" value=\"LOCAL\" />\n      <updated>1717428775147</updated>\n    </task>\n    <task id=\"LOCAL-00002\" summary=\"Third lecture\">\n      <option name=\"closed\" value=\"true\" />\n      <created>1717679582792</created>\n      <option name=\"number\" value=\"00002\" />\n      <option name=\"presentableId\" value=\"LOCAL-00002\" />\n      <option name=\"project\" value=\"LOCAL\" />\n      <updated>1717679582792</updated>\n    </task>\n    <task id=\"LOCAL-00003\" summary=\"Third lecture - Python variables and data types\">\n      <option name=\"closed\" value=\"true\" />\n      <created>1717680810661</created>\n      <option name=\"number\" value=\"00003\" />\n      <option name=\"presentableId\" value=\"LOCAL-00003\" />\n      <option name=\"project\" value=\"LOCAL\" />\n      <updated>1717680810661</updated>\n    </task>\n    <task id=\"LOCAL-00004\" summary=\"Third lecture - Python variables and data types\">\n      <option name=\"closed\" value=\"true\" />\n      <created>1717680932324</created>\n      <option name=\"number\" value=\"00004\" />\n      <option name=\"presentableId\" value=\"LOCAL-00004\" />\n      <option name=\"project\" value=\"LOCAL\" />\n      <updated>1717680932324</updated>\n    </task>\n    <option name=\"localTasksCounter\" value=\"5\" />\n    <servers />\n  </component>\n  <component name=\"TypeScriptGeneratedFilesManager\">\n    <option name=\"version\" value=\"3\" />\n  </component>\n  <component name=\"VcsManagerConfiguration\">\n    <MESSAGE value=\"Adding LAB_001.py file\" />\n    <MESSAGE value=\"Third lecture\" />\n    <MESSAGE value=\"Third lecture - Python variables and data types\" />\n    <option name=\"LAST_COMMIT_MESSAGE\" value=\"Third lecture - Python variables and data types\" />\n  </component>\n  <component name=\"com.intellij.coverage.CoverageDataManagerImpl\">\n    <SUITE FILE_PATH=\"coverage/Pylearning3xATB$LAB_001.coverage\" NAME=\"LAB_001 Coverage Results\" MODIFIED=\"1717428093842\" SOURCE_PROVIDER=\"com.intellij.coverage.DefaultCoverageFileProvider\" RUNNER=\"coverage.py\" COVERAGE_BY_TEST_ENABLED=\"false\" COVERAGE_TRACING_ENABLED=\"false\" WORKING_DIRECTORY=\"$PROJECT_DIR$/Ex-1-03-06-2024\" />\n  </component>\n</project>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/workspace.xml b/.idea/workspace.xml
+--- a/.idea/workspace.xml	(revision cfe895fe1c84dc924349a7ebfda77038aedf1de9)
++++ b/.idea/workspace.xml	(date 1718121078211)
+@@ -4,8 +4,19 @@
+     <option name="autoReloadType" value="SELECTIVE" />
+   </component>
+   <component name="ChangeListManager">
+-    <list default="true" id="83304dca-33c1-4f3c-bb2d-3bec65755190" name="Changes" comment="Third lecture">
++    <list default="true" id="83304dca-33c1-4f3c-bb2d-3bec65755190" name="Changes" comment="Operators and literals">
+       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/EX_4 07-06-2024/LAB_014.py" beforeDir="false" afterPath="$PROJECT_DIR$/EX_4 07-06-2024/LAB_014.py" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/EX_4 07-06-2024/LAB_015.py" beforeDir="false" afterPath="$PROJECT_DIR$/EX_4 07-06-2024/LAB_015.py" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/EX_4 07-06-2024/LAB_016.py" beforeDir="false" afterPath="$PROJECT_DIR$/EX_4 07-06-2024/LAB_016.py" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/EX_4 07-06-2024/LAB_017.py" beforeDir="false" afterPath="$PROJECT_DIR$/EX_4 07-06-2024/LAB_017.py" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/EX_4 07-06-2024/LAB_018.py" beforeDir="false" afterPath="$PROJECT_DIR$/EX_4 07-06-2024/LAB_018.py" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/EX_4 07-06-2024/LAB_019.py" beforeDir="false" afterPath="$PROJECT_DIR$/EX_4 07-06-2024/LAB_019.py" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/EX_4 07-06-2024/LAB_020.py" beforeDir="false" afterPath="$PROJECT_DIR$/EX_4 07-06-2024/LAB_020.py" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/EX_4 07-06-2024/LAB_021.py" beforeDir="false" afterPath="$PROJECT_DIR$/EX_4 07-06-2024/LAB_021.py" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/EX_4 07-06-2024/LAB_022.py" beforeDir="false" afterPath="$PROJECT_DIR$/EX_4 07-06-2024/LAB_022.py" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/EX_4 07-06-2024/LAB_023.py" beforeDir="false" afterPath="$PROJECT_DIR$/EX_4 07-06-2024/LAB_023.py" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/EX_4 07-06-2024/LAB_024.py" beforeDir="false" afterPath="$PROJECT_DIR$/EX_4 07-06-2024/LAB_024.py" afterDir="false" />
+     </list>
+     <option name="SHOW_DIALOG" value="false" />
+     <option name="HIGHLIGHT_CONFLICTS" value="true" />
+@@ -20,6 +31,7 @@
+     </option>
+   </component>
+   <component name="Git.Settings">
++    <option name="PUSH_AUTO_UPDATE" value="true" />
+     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+   </component>
+   <component name="ProjectColorInfo">{
+@@ -45,6 +57,31 @@
+     &quot;Python.LAB_011.executor&quot;: &quot;Run&quot;,
+     &quot;Python.LAB_012.executor&quot;: &quot;Run&quot;,
+     &quot;Python.LAB_013.executor&quot;: &quot;Run&quot;,
++    &quot;Python.LAB_014.executor&quot;: &quot;Run&quot;,
++    &quot;Python.LAB_015.executor&quot;: &quot;Run&quot;,
++    &quot;Python.LAB_016.executor&quot;: &quot;Run&quot;,
++    &quot;Python.LAB_017.executor&quot;: &quot;Run&quot;,
++    &quot;Python.LAB_018.executor&quot;: &quot;Run&quot;,
++    &quot;Python.LAB_019.executor&quot;: &quot;Run&quot;,
++    &quot;Python.LAB_020.executor&quot;: &quot;Run&quot;,
++    &quot;Python.LAB_021.executor&quot;: &quot;Run&quot;,
++    &quot;Python.LAB_022.executor&quot;: &quot;Run&quot;,
++    &quot;Python.LAB_023.executor&quot;: &quot;Run&quot;,
++    &quot;Python.LAB_024.executor&quot;: &quot;Run&quot;,
++    &quot;Python.LAB_025.executor&quot;: &quot;Run&quot;,
++    &quot;Python.LAB_026.executor&quot;: &quot;Run&quot;,
++    &quot;Python.LAB_027.executor&quot;: &quot;Run&quot;,
++    &quot;Python.LAB_028.executor&quot;: &quot;Run&quot;,
++    &quot;Python.LAB_029.executor&quot;: &quot;Run&quot;,
++    &quot;Python.LAB_030.executor&quot;: &quot;Run&quot;,
++    &quot;Python.LAB_031.executor&quot;: &quot;Run&quot;,
++    &quot;Python.LAB_032.executor&quot;: &quot;Run&quot;,
++    &quot;Python.LAB_033.executor&quot;: &quot;Run&quot;,
++    &quot;Python.LAB_034.executor&quot;: &quot;Run&quot;,
++    &quot;Python.LAB_035.executor&quot;: &quot;Run&quot;,
++    &quot;Python.LAB_036.executor&quot;: &quot;Run&quot;,
++    &quot;Python.LAB_037.executor&quot;: &quot;Run&quot;,
++    &quot;Python.TEST.PY.executor&quot;: &quot;Run&quot;,
+     &quot;Python.Test.executor&quot;: &quot;Run&quot;,
+     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+@@ -66,8 +103,13 @@
+     ]
+   }
+ }</component>
+-  <component name="RunManager" selected="Python.LAB_013">
+-    <configuration name="LAB_002" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
++  <component name="RecentsManager">
++    <key name="CopyFile.RECENT_KEYS">
++      <recent name="$PROJECT_DIR$" />
++    </key>
++  </component>
++  <component name="RunManager" selected="Python.LAB_002">
++    <configuration name="LAB_001" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+       <module name="pylearning3xATB" />
+       <option name="ENV_FILES" value="" />
+       <option name="INTERPRETER_OPTIONS" value="" />
+@@ -76,20 +118,20 @@
+         <env name="PYTHONUNBUFFERED" value="1" />
+       </envs>
+       <option name="SDK_HOME" value="" />
+-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Ex_05-06-2024" />
++      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Ex_1-03-06-2024" />
+       <option name="IS_MODULE_SDK" value="true" />
+       <option name="ADD_CONTENT_ROOTS" value="true" />
+       <option name="ADD_SOURCE_ROOTS" value="true" />
+-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Ex_05-06-2024/LAB_002.py" />
++      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Ex_1-03-06-2024/LAB_001.py" />
+       <option name="PARAMETERS" value="" />
+       <option name="SHOW_COMMAND_LINE" value="false" />
+-      <option name="EMULATE_TERMINAL" value="true" />
++      <option name="EMULATE_TERMINAL" value="false" />
+       <option name="MODULE_MODE" value="false" />
+       <option name="REDIRECT_INPUT" value="false" />
+       <option name="INPUT_FILE" value="" />
+       <method v="2" />
+     </configuration>
+-    <configuration name="LAB_009" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
++    <configuration name="LAB_002" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
+       <module name="pylearning3xATB" />
+       <option name="ENV_FILES" value="" />
+       <option name="INTERPRETER_OPTIONS" value="" />
+@@ -102,10 +144,10 @@
+       <option name="IS_MODULE_SDK" value="true" />
+       <option name="ADD_CONTENT_ROOTS" value="true" />
+       <option name="ADD_SOURCE_ROOTS" value="true" />
+-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Ex_05-06-2024/LAB_009.py" />
++      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Ex_05-06-2024/LAB_002.py" />
+       <option name="PARAMETERS" value="" />
+       <option name="SHOW_COMMAND_LINE" value="false" />
+-      <option name="EMULATE_TERMINAL" value="false" />
++      <option name="EMULATE_TERMINAL" value="true" />
+       <option name="MODULE_MODE" value="false" />
+       <option name="REDIRECT_INPUT" value="false" />
+       <option name="INPUT_FILE" value="" />
+@@ -201,11 +243,11 @@
+     </configuration>
+     <recent_temporary>
+       <list>
++        <item itemvalue="Python.LAB_001" />
+         <item itemvalue="Python.LAB_013" />
+         <item itemvalue="Python.LAB_012" />
+         <item itemvalue="Python.LAB_011" />
+         <item itemvalue="Python.Test" />
+-        <item itemvalue="Python.LAB_009" />
+       </list>
+     </recent_temporary>
+   </component>
+@@ -260,17 +302,64 @@
+       <option name="project" value="LOCAL" />
+       <updated>1717680932324</updated>
+     </task>
+-    <option name="localTasksCounter" value="5" />
++    <task id="LOCAL-00005" summary="Python Lec 3">
++      <option name="closed" value="true" />
++      <created>1717681329827</created>
++      <option name="number" value="00005" />
++      <option name="presentableId" value="LOCAL-00005" />
++      <option name="project" value="LOCAL" />
++      <updated>1717681329827</updated>
++    </task>
++    <task id="LOCAL-00006" summary="Python lists basics">
++      <option name="closed" value="true" />
++      <created>1717906609714</created>
++      <option name="number" value="00006" />
++      <option name="presentableId" value="LOCAL-00006" />
++      <option name="project" value="LOCAL" />
++      <updated>1717906609714</updated>
++    </task>
++    <task id="LOCAL-00007" summary="Operators and literals">
++      <option name="closed" value="true" />
++      <created>1718040712094</created>
++      <option name="number" value="00007" />
++      <option name="presentableId" value="LOCAL-00007" />
++      <option name="project" value="LOCAL" />
++      <updated>1718040712094</updated>
++    </task>
++    <task id="LOCAL-00008" summary="Operators/ Literals">
++      <option name="closed" value="true" />
++      <created>1718040918288</created>
++      <option name="number" value="00008" />
++      <option name="presentableId" value="LOCAL-00008" />
++      <option name="project" value="LOCAL" />
++      <updated>1718040918288</updated>
++    </task>
++    <option name="localTasksCounter" value="9" />
+     <servers />
+   </component>
+   <component name="TypeScriptGeneratedFilesManager">
+     <option name="version" value="3" />
+   </component>
++  <component name="Vcs.Log.Tabs.Properties">
++    <option name="TAB_STATES">
++      <map>
++        <entry key="MAIN">
++          <value>
++            <State />
++          </value>
++        </entry>
++      </map>
++    </option>
++  </component>
+   <component name="VcsManagerConfiguration">
+     <MESSAGE value="Adding LAB_001.py file" />
+     <MESSAGE value="Third lecture" />
+     <MESSAGE value="Third lecture - Python variables and data types" />
+-    <option name="LAST_COMMIT_MESSAGE" value="Third lecture - Python variables and data types" />
++    <MESSAGE value="Python Lec 3" />
++    <MESSAGE value="Python lists basics" />
++    <MESSAGE value="Operators/ Literals" />
++    <MESSAGE value="Operators and literals" />
++    <option name="LAST_COMMIT_MESSAGE" value="Operators and literals" />
+   </component>
+   <component name="com.intellij.coverage.CoverageDataManagerImpl">
+     <SUITE FILE_PATH="coverage/Pylearning3xATB$LAB_001.coverage" NAME="LAB_001 Coverage Results" MODIFIED="1717428093842" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Ex-1-03-06-2024" />
+Index: EX_4 07-06-2024/LAB_015.py
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/EX_4 07-06-2024/LAB_015.py b/EX_4 07-06-2024/LAB_015.py
+--- a/EX_4 07-06-2024/LAB_015.py	(revision cfe895fe1c84dc924349a7ebfda77038aedf1de9)
++++ b/EX_4 07-06-2024/LAB_015.py	(date 1718040745599)
+@@ -1,0 +1,7 @@
++# Advance Data Type in Python
++# List, Tuple, Set, Dict - DS - API and Web Automation.
++# Take a user input
++
++user_input = input("Enter your name: ")
++print(user_input)
++print(type(user_input))
+\ No newline at end of file
