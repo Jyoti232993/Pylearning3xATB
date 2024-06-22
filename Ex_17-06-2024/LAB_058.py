@@ -1,0 +1,47 @@
+# Functions
+# Block of Code - Which can executed or reused.
+# Define
+# Call
+
+# Built Functions - builtins.py - file (Python 3 setup)
+# Which are created by the Python Contributers
+result = max(2, 3)
+print(result)
+
+# User Defined
+# They can return something
+# They can't return -> non return
+# They have parameters
+# They don't parameters / arguments
+
+# def say_hello(): # No Return Type and No Parameter / Argument
+#    print("Hello")
+# say_hello()
+
+
+# def say_hello_arg(name): # No Return Type and with Argument
+#    print("Hello", name)
+# say_hello_arg("Jyoti")
+# say_hello_arg("Karan")
+
+def say_hello_arg_default(name = "Jyoti"): # No Return Type and with Default Argument
+        # Write the Code
+        print("Hello",name)
+
+say_hello_arg_default()
+say_hello_arg_default("Deeksha")
+say_hello_arg_default(name="Sachin")
+
+def sum_number_argument_ret(a,b):  # Argument + return Type
+    return a+b
+
+# result = sum_number_argument_ret(3,4)
+# result = sum_number_argument_ret(31,43)
+# result = sum_number_argument_ret(90,89)
+result = sum_number_argument_ret(101,99)
+print(result)
+
+
+
+
+
