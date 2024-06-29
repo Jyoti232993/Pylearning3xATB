@@ -4,7 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="83304dca-33c1-4f3c-bb2d-3bec65755190" name="Changes" comment="Operators and literals">
+    <list default="true" id="83304dca-33c1-4f3c-bb2d-3bec65755190" name="Changes" comment="Commit 1 - June 14">
+      <change afterPath="$PROJECT_DIR$/Ex_14-06-2024/Test.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_10_06_24,_11_02_pm/shelved.patch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_10_06_24__11_02_pm.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_15_06_24,_2_52_pm_[Changes]1/shelved.patch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_15_06_24,_9_32_am_[Changes]/shelved.patch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_15_06_24__2_52_pm__Changes_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_15_06_24__9_32_am__Changes_.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -36,58 +43,132 @@
   <component name="ProjectId" id="2hNHYnoDEE51vNnLDfoRDfciz5O" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
+    <option name="autoscrollFromSource" value="true" />
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Python.LAB_001.executor&quot;: &quot;Run&quot;,
-    &quot;Python.LAB_002.executor&quot;: &quot;Run&quot;,
-    &quot;Python.LAB_003.executor&quot;: &quot;Run&quot;,
-    &quot;Python.LAB_004.executor&quot;: &quot;Run&quot;,
-    &quot;Python.LAB_005.executor&quot;: &quot;Run&quot;,
-    &quot;Python.LAB_006.executor&quot;: &quot;Run&quot;,
-    &quot;Python.LAB_007.executor&quot;: &quot;Run&quot;,
-    &quot;Python.LAB_008a.executor&quot;: &quot;Run&quot;,
-    &quot;Python.LAB_009.executor&quot;: &quot;Run&quot;,
-    &quot;Python.LAB_011.executor&quot;: &quot;Run&quot;,
-    &quot;Python.LAB_012.executor&quot;: &quot;Run&quot;,
-    &quot;Python.LAB_013.executor&quot;: &quot;Run&quot;,
-    &quot;Python.LAB_014.executor&quot;: &quot;Run&quot;,
-    &quot;Python.LAB_015.executor&quot;: &quot;Run&quot;,
-    &quot;Python.LAB_017.executor&quot;: &quot;Run&quot;,
-    &quot;Python.LAB_018.executor&quot;: &quot;Run&quot;,
-    &quot;Python.LAB_019.executor&quot;: &quot;Run&quot;,
-    &quot;Python.LAB_020.executor&quot;: &quot;Run&quot;,
-    &quot;Python.LAB_021.executor&quot;: &quot;Run&quot;,
-    &quot;Python.LAB_022.executor&quot;: &quot;Run&quot;,
-    &quot;Python.LAB_023.executor&quot;: &quot;Run&quot;,
-    &quot;Python.LAB_024.executor&quot;: &quot;Run&quot;,
-    &quot;Python.TEst.executor&quot;: &quot;Run&quot;,
-    &quot;Python.Task 1.executor&quot;: &quot;Run&quot;,
-    &quot;Python.Task 2a.executor&quot;: &quot;Run&quot;,
-    &quot;Python.Task 2b.executor&quot;: &quot;Run&quot;,
-    &quot;Python.Test.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/Users/jyotiparmar/PycharmProjects/pylearning3xATB&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;project.propVCSSupport.CommitDialog&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Python.LAB_001.executor": "Run",
+    "Python.LAB_002.executor": "Run",
+    "Python.LAB_003.executor": "Run",
+    "Python.LAB_004.executor": "Run",
+    "Python.LAB_005.executor": "Run",
+    "Python.LAB_006.executor": "Run",
+    "Python.LAB_007.executor": "Run",
+    "Python.LAB_008a.executor": "Run",
+    "Python.LAB_009.executor": "Run",
+    "Python.LAB_011.executor": "Run",
+    "Python.LAB_012.executor": "Run",
+    "Python.LAB_013.executor": "Run",
+    "Python.LAB_014.executor": "Run",
+    "Python.LAB_015.executor": "Run",
+    "Python.LAB_017.executor": "Run",
+    "Python.LAB_018.executor": "Run",
+    "Python.LAB_019.executor": "Run",
+    "Python.LAB_020.executor": "Run",
+    "Python.LAB_021.executor": "Run",
+    "Python.LAB_022.executor": "Run",
+    "Python.LAB_023.executor": "Run",
+    "Python.LAB_024.executor": "Run",
+    "Python.LAB_049.executor": "Run",
+    "Python.LAB_050.executor": "Run",
+    "Python.LAB_051.executor": "Run",
+    "Python.LAB_052.executor": "Run",
+    "Python.LAB_053.executor": "Run",
+    "Python.LAB_054.executor": "Run",
+    "Python.LAB_055.executor": "Run",
+    "Python.LAB_056.executor": "Run",
+    "Python.LAB_057.executor": "Run",
+    "Python.LAB_058.executor": "Run",
+    "Python.LAB_059.executor": "Run",
+    "Python.LAB_060.executor": "Run",
+    "Python.LAB_061.executor": "Run",
+    "Python.LAB_062.executor": "Run",
+    "Python.LAB_063.executor": "Run",
+    "Python.LAB_064.executor": "Run",
+    "Python.LAB_065.executor": "Run",
+    "Python.LAB_066.executor": "Run",
+    "Python.LAB_067.executor": "Run",
+    "Python.LAB_068.executor": "Run",
+    "Python.LAB_069.executor": "Run",
+    "Python.LAB_070.executor": "Run",
+    "Python.LAB_071.executor": "Run",
+    "Python.LAB_072.executor": "Run",
+    "Python.LAB_073.executor": "Run",
+    "Python.LAB_074.executor": "Run",
+    "Python.LAB_075.executor": "Run",
+    "Python.LAB_076.executor": "Run",
+    "Python.LAB_077.executor": "Run",
+    "Python.LAB_078.executor": "Run",
+    "Python.LAB_079.executor": "Run",
+    "Python.LAB_080.executor": "Run",
+    "Python.LAB_081.executor": "Run",
+    "Python.LAB_082.executor": "Run",
+    "Python.LAB_083.executor": "Run",
+    "Python.LAB_084.executor": "Run",
+    "Python.LAB_085.executor": "Run",
+    "Python.LAB_086.executor": "Run",
+    "Python.LAB_087.executor": "Run",
+    "Python.LAB_088.executor": "Run",
+    "Python.LAB_089.executor": "Run",
+    "Python.LAB_090.executor": "Run",
+    "Python.LAB_091.executor": "Run",
+    "Python.LAB_092.executor": "Run",
+    "Python.LAB_093.executor": "Run",
+    "Python.LAB_094.executor": "Run",
+    "Python.LAB_095.executor": "Run",
+    "Python.LAB_096.executor": "Run",
+    "Python.LAB_097.executor": "Run",
+    "Python.LAB_098.executor": "Run",
+    "Python.LAB_099.executor": "Run",
+    "Python.LAB_100.executor": "Run",
+    "Python.LAB_101.executor": "Run",
+    "Python.LAB_102.executor": "Run",
+    "Python.LAB_103.executor": "Run",
+    "Python.LAB_104.executor": "Run",
+    "Python.LAB_105.executor": "Run",
+    "Python.LAB_106.executor": "Run",
+    "Python.LAB_107.executor": "Run",
+    "Python.LAB_108.executor": "Run",
+    "Python.LAB_109.executor": "Run",
+    "Python.LAB_110.executor": "Run",
+    "Python.LAB_111.executor": "Run",
+    "Python.TEst.executor": "Run",
+    "Python.Task 1.executor": "Run",
+    "Python.Task 2a.executor": "Run",
+    "Python.Task 2b.executor": "Run",
+    "Python.Task 4a.executor": "Run",
+    "Python.Task 4b.executor": "Run",
+    "Python.Task 4c.executor": "Run",
+    "Python.Task 4d.executor": "Run",
+    "Python.Task 5.executor": "Run",
+    "Python.Task 6a.executor": "Run",
+    "Python.Task 6b.executor": "Run",
+    "Python.Task 6c.executor": "Run",
+    "Python.Task 6d.executor": "Run",
+    "Python.Task 6e.executor": "Run",
+    "Python.Test.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "git-widget-placeholder": "main",
+    "last_opened_file_path": "/Users/jyotiparmar/PycharmProjects/pylearning3xATB",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "preferences.pluginManager",
+    "vue.rearranger.settings.migration": "true"
   },
-  &quot;keyToStringList&quot;: {
-    &quot;GitStage.ChangesTree.GroupingKeys&quot;: [
-      &quot;directory&quot;,
-      &quot;module&quot;,
-      &quot;repository&quot;
+  "keyToStringList": {
+    "GitStage.ChangesTree.GroupingKeys": [
+      "directory",
+      "module",
+      "repository"
     ]
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$" />
@@ -99,7 +180,7 @@
       <recent name="$PROJECT_DIR$/Ex_5" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.LAB_014">
+  <component name="RunManager">
     <configuration name="LAB_002" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
       <module name="pylearning3xATB" />
       <option name="ENV_FILES" value="" />
@@ -210,7 +291,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="Test" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="LAB_103" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="pylearning3xATB" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -219,11 +300,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Ex_05-06-2024" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/EX_24-06-2024" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Ex_05-06-2024/Test.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/EX_24-06-2024/LAB_103.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -234,11 +315,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.LAB_103" />
         <item itemvalue="Python.LAB_014" />
         <item itemvalue="Python.LAB_013" />
         <item itemvalue="Python.LAB_012" />
         <item itemvalue="Python.LAB_011" />
-        <item itemvalue="Python.Test" />
       </list>
     </recent_temporary>
   </component>
@@ -325,7 +406,63 @@
       <option name="project" value="LOCAL" />
       <updated>1718430647054</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Operators and literals">
+      <option name="closed" value="true" />
+      <created>1718466926523</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1718466926523</updated>
+    </task>
+    <task id="LOCAL-00010" summary="Operators and literals">
+      <option name="closed" value="true" />
+      <created>1718467003654</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1718467003654</updated>
+    </task>
+    <task id="LOCAL-00011" summary="Commit 1 - June 14">
+      <option name="closed" value="true" />
+      <created>1718471011351</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1718471011351</updated>
+    </task>
+    <task id="LOCAL-00012" summary="Commit 1 - June 14">
+      <option name="closed" value="true" />
+      <created>1718527449297</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1718527449297</updated>
+    </task>
+    <task id="LOCAL-00013" summary="Commit 1 - June 22">
+      <option name="closed" value="true" />
+      <created>1719075352351</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1719075352351</updated>
+    </task>
+    <task id="LOCAL-00014" summary="Commit 2 - June 22">
+      <option name="closed" value="true" />
+      <created>1719081242163</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1719081242163</updated>
+    </task>
+    <task id="LOCAL-00015" summary="Commit 1 - June 29">
+      <option name="closed" value="true" />
+      <created>1719684805591</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1719684805591</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -339,7 +476,11 @@
     <MESSAGE value="Commit 1 - June 7" />
     <MESSAGE value="Commit 2 - June 7" />
     <MESSAGE value="Operators and literals" />
-    <option name="LAST_COMMIT_MESSAGE" value="Operators and literals" />
+    <MESSAGE value="Commit 1 - June 22" />
+    <MESSAGE value="Commit 2 - June 22" />
+    <MESSAGE value="Commit 1 - June 14" />
+    <MESSAGE value="Commit 1 - June 29" />
+    <option name="LAST_COMMIT_MESSAGE" value="Commit 1 - June 29" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -348,6 +489,10 @@
           <url>file://$PROJECT_DIR$/Ex_07-06-2024/Task 2/Task 2b.py</url>
           <line>9</line>
           <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/EX_21-06-2024/LAB_097.py</url>
+          <option name="timeStamp" value="3" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
